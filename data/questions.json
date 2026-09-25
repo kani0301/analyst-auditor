@@ -1,0 +1,74 @@
+[
+  {
+    "id": "Q1",
+    "difficulty": "Low",
+    "category": "Baseline Entity Fact Retrieval",
+    "question": "When was Mistral AI founded, who are its three co-founders, and what was the valuation and amount raised in their initial seed round?",
+    "target_entities": ["Mistral AI", "Arthur Mensch", "Guillaume Lample", "Timothée Lacroix"],
+    "reuses_entity_from": null,
+    "notes": "Introduces Mistral AI into the entity memory store."
+  },
+  {
+    "id": "Q2",
+    "difficulty": "Low-Medium",
+    "category": "Multi-Model Technical Architecture",
+    "question": "What context window sizes, parameter sizes, and attention mechanisms (including sliding window attention) are specified in the official technical reports for Google's Gemma 2 (2B, 9B, 27B) models?",
+    "target_entities": ["Gemma 2", "Google DeepMind"],
+    "reuses_entity_from": null,
+    "notes": "Tests multi-variant architecture specification retrieval."
+  },
+  {
+    "id": "Q3",
+    "difficulty": "Medium",
+    "category": "Divergent Estimates & Source Disagreement",
+    "question": "What are the estimated electrical energy consumption (in Wh or kWh) and cooling water usage (in mL) per query for OpenAI's GPT-4, and why do published academic studies (such as UC Riverside) differ from industry operational statements?",
+    "target_entities": ["GPT-4", "OpenAI", "UC Riverside"],
+    "reuses_entity_from": null,
+    "notes": "Tests source disagreement handling and quantification variance."
+  },
+  {
+    "id": "Q4",
+    "difficulty": "Medium",
+    "category": "Entity Memory Recall & Commercial Evolution",
+    "question": "Following up on Mistral AI: Which of their models were published under permissive Apache 2.0 licenses versus proprietary commercial weights, and what are the specific terms and compute commitments of their multi-year partnership with Microsoft Azure announced in early 2024?",
+    "target_entities": ["Mistral AI", "Microsoft Azure"],
+    "reuses_entity_from": "Q1",
+    "notes": "Exercises Entity Memory from Q1 to avoid re-searching base company background."
+  },
+  {
+    "id": "Q5",
+    "difficulty": "Medium-High",
+    "category": "Deep Technical Architecture & Training Economics",
+    "question": "What is the timeline of development from DeepSeek-V2 to DeepSeek-V3 and DeepSeek-R1, how does their Multi-head Latent Attention (MLA) architecture compress KV-cache memory, and what was the officially claimed training compute cost in GPU hours and USD for DeepSeek-V3?",
+    "target_entities": ["DeepSeek", "DeepSeek-V3", "DeepSeek-R1", "MLA"],
+    "reuses_entity_from": null,
+    "notes": "Introduces DeepSeek into entity memory; dense technical parameter extraction."
+  },
+  {
+    "id": "Q6",
+    "difficulty": "High",
+    "category": "Cross-Jurisdictional Regulatory & Compliance Frameworks",
+    "question": "Under the European Union Artificial Intelligence Act (EU AI Act), what is the floating-point operations (FLOPs) threshold that classifies a General-Purpose AI (GPAI) model as carrying 'systemic risk', what are the maximum administrative fines for non-compliance, and what is the staggered implementation timeline from 2024 to 2026?",
+    "target_entities": ["EU AI Act", "General Purpose AI", "European Commission"],
+    "reuses_entity_from": null,
+    "notes": "Requires exact regulatory figures (10^25 FLOPs, EUR 35M / 7% turnover) and statutory dates."
+  },
+  {
+    "id": "Q7",
+    "difficulty": "High",
+    "category": "Dual-Entity Comparative Synthesis & Memory Reuse",
+    "question": "Compare DeepSeek (DeepSeek-V3 / R1) and Mistral AI (Mixtral 8x7B / Mistral Large) regarding their open-weights licensing philosophy, claimed per-million token API pricing economics, and enterprise self-hosting trade-offs.",
+    "target_entities": ["DeepSeek", "Mistral AI"],
+    "reuses_entity_from": "Q1, Q4, Q5",
+    "notes": "Exercises dual-entity memory from both Q1/Q4 (Mistral) and Q5 (DeepSeek) simultaneously."
+  },
+  {
+    "id": "Q8",
+    "difficulty": "Very High",
+    "category": "Controversial Scientific Synthesis & Verification Consensus",
+    "question": "What was the initial empirical claim regarding room-temperature ambient-pressure superconductivity in LK-99 (copper-doped lead apatite), which prominent international research laboratories attempted replication, and what was the decisive scientific consensus reached by late 2023 explaining the observed levitation and resistivity drops?",
+    "target_entities": ["LK-99", "Sukbae Lee", "Max Planck Institute", "Nature", "Cu2S"],
+    "reuses_entity_from": null,
+    "notes": "Tests complex multi-source disagreement resolution, identifying ferromagnetism and Cu2S phase transitions."
+  }
+]

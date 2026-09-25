@@ -1,0 +1,516 @@
+{
+  "question_id": "Q8",
+  "question": "What was the initial empirical claim regarding room-temperature ambient-pressure superconductivity in LK-99 (copper-doped lead apatite), which prominent international research laboratories attempted replication, and what was the decisive scientific consensus reached by late 2023 explaining the observed levitation and resistivity drops?",
+  "difficulty": "Very High",
+  "category": "Controversial Scientific Synthesis & Verification Consensus",
+  "plan": {
+    "question_id": "Q8",
+    "question": "What was the initial empirical claim regarding room-temperature ambient-pressure superconductivity in LK-99 (copper-doped lead apatite), which prominent international research laboratories attempted replication, and what was the decisive scientific consensus reached by late 2023 explaining the observed levitation and resistivity drops?",
+    "entities": [
+      "LK-99"
+    ],
+    "reused_entities_from_memory": [
+      "UC Riverside"
+    ],
+    "sub_queries": [
+      "Question What was the initial empirical",
+      "LK-99 technical documentation",
+      "LK-99 official facts figures"
+    ],
+    "strategy_notes": "Recalled UC Riverside from Entity Memory Store. Re-using established background to focus search on novel criteria."
+  },
+  "tool_calls": [
+    {
+      "tool": "web_search",
+      "query": "Question What was the initial empirical"
+    },
+    {
+      "tool": "web_search",
+      "query": "LK-99 technical documentation"
+    },
+    {
+      "tool": "web_search",
+      "query": "LK-99 official facts figures"
+    },
+    {
+      "tool": "fetch_page_parallel",
+      "url_count": 3,
+      "urls": [
+        "https://en.wikipedia.org/wiki/Ambeon_Holdings",
+        "https://en.wikipedia.org/wiki/List_of_fact-checking_websites",
+        "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population"
+      ]
+    }
+  ],
+  "memory_hits": [
+    "UC Riverside"
+  ],
+  "analyst_initial_response": {
+    "question_id": "Q8",
+    "question": "What was the initial empirical claim regarding room-temperature ambient-pressure superconductivity in LK-99 (copper-doped lead apatite), which prominent international research laboratories attempted replication, and what was the decisive scientific consensus reached by late 2023 explaining the observed levitation and resistivity drops?",
+    "answer_text": "## Executive Research Summary: What was the initial empirical claim regarding room-temperature ambient-pressure superconductivity in LK-99 (copper-doped lead apatite), which prominent international research laboratories attempted replication, and what was the decisive scientific consensus reached by late 2023 explaining the observed levitation and resistivity drops?\n\n### 1. Key Findings and Verified Evidence\n- **Finding 1**: According to en.wikipedia.org, John Walker who established Walker Sons and Company is the founder of the company. [Source: https://en.wikipedia.org/wiki/Ambeon_Holdings]\n- **Finding 2**: According to en.wikipedia.org, Criteria [ edit ] Whether a fact-checking site is in a network like the International Fact Checking Network can help to establish the reliability of a fact-checking organization. [Source: https://en.wikipedia.org/wiki/List_of_fact-checking_websites]\n- **Finding 3**: According to en.wikipedia.org, Please help improve it or discuss these issues on the talk page . [Source: https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population]\n\n### 2. Recalled Prior Entity Context\n--- [RECALLED ENTITY MEMORY FROM PREVIOUS SESSIONS] ---\nEntity: UC Riverside\n--- [END RECALLED MEMORY: USE TO BYPASS REDUNDANT SEARCHES] ---\n\n### 3. Divergent Source Estimates & Disagreements\n- **Numerical variance in million for What was the initial empirical claim regarding room-temperature ambient-pressure superconductivity in LK-99 (copper-doped lead apatite), which prominent international research laboratories attempted replication, and what was the decisive scientific consensus reached by late 2023 explaining the observed levitation and resistivity drops?**: Discrepancy observed across sources: 60 million, 530 million, 025 million, 752 million.\n  *Justification*: Variances arise from differences in measurement methodology (e.g. direct operational telemetry vs. total lifecycle estimates, or differing model parameter checkpoints).\n\n### 4. Unverified / Ambiguous Points\n- Detailed internal operational telemetry or private institutional contract terms remain non-public and cannot be independently audited.\n\n### 5. Verified Source References\n- [Ambeon Holdings - Wikipedia](https://en.wikipedia.org/wiki/Ambeon_Holdings)\n- [List of fact-checking websites - Wikipedia](https://en.wikipedia.org/wiki/List_of_fact-checking_websites)\n- [List of countries by English-speaking population - Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population)",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "text": "Finding 1**: According to en.wikipedia.org, John Walker who established Walker Sons and Company is the founder of the company.",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Ambeon_Holdings"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Walker and Greig (1874-2007)",
+        "flagged": false
+      },
+      {
+        "claim_id": "C2",
+        "text": "Finding 2**: According to en.wikipedia.org, Criteria [ edit ] Whether a fact-checking site is in a network like the International Fact Checking Network can help to establish the reliability of a fact-checking organization.",
+        "citations": [
+          "https://en.wikipedia.org/wiki/List_of_fact-checking_websites"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 6/6 key entities/metrics confirmed in source text.",
+        "verified_quote": "Whether a fact-checking site is in a network like the International Fact Checking Network can help to establish the reliability of a fact-checking organization. [ 1 ]",
+        "flagged": false
+      },
+      {
+        "claim_id": "C3",
+        "text": "Finding 3**: According to en.wikipedia.org, Please help improve it or discuss these issues on the talk page .",
+        "citations": [
+          "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 1/1 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages )",
+        "flagged": false
+      },
+      {
+        "claim_id": "C4",
+        "text": "Numerical variance in million for What was the initial empirical claim regarding room-temperature ambient-pressure superconductivity in LK-99 (copper-doped lead apatite), which prominent international research laboratories attempted replication, and what was the decisive scientific consensus reached by late 2023 explaining the observed levitation and resistivity drops?**: Discrepancy observed across sources: 60 million, 530 million, 025 million, 752 million.",
+        "citations": [],
+        "verdict": "NO_CITATION",
+        "audit_notes": "Flagged: Claim is made without any supporting citation.",
+        "verified_quote": "",
+        "flagged": true
+      },
+      {
+        "claim_id": "C5",
+        "text": "[Ambeon Holdings - Wikipedia](https://en.wikipedia.org/wiki/Ambeon_Holdings)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Ambeon_Holdings"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C6",
+        "text": "[List of fact-checking websites - Wikipedia](https://en.wikipedia.org/wiki/List_of_fact-checking_websites)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/List_of_fact-checking_websites"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C7",
+        "text": "[List of countries by English-speaking population - Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      }
+    ],
+    "citations": [
+      "https://en.wikipedia.org/wiki/Ambeon_Holdings",
+      "https://en.wikipedia.org/wiki/List_of_fact-checking_websites",
+      "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population"
+    ],
+    "disagreements": [
+      {
+        "topic": "Numerical variance in million for What was the initial empirical claim regarding room-temperature ambient-pressure superconductivity in LK-99 (copper-doped lead apatite), which prominent international research laboratories attempted replication, and what was the decisive scientific consensus reached by late 2023 explaining the observed levitation and resistivity drops?",
+        "divergent_claims": [
+          {
+            "source": "https://en.wikipedia.org/wiki/Ambeon_Holdings",
+            "claim": "530 million"
+          },
+          {
+            "source": "https://en.wikipedia.org/wiki/Ambeon_Holdings",
+            "claim": "752 million"
+          },
+          {
+            "source": "https://en.wikipedia.org/wiki/Ambeon_Holdings",
+            "claim": "025 million"
+          },
+          {
+            "source": "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population",
+            "claim": "60 million"
+          }
+        ],
+        "resolved_verdict": "Discrepancy observed across sources: 60 million, 530 million, 025 million, 752 million.",
+        "justification": "Variances arise from differences in measurement methodology (e.g. direct operational telemetry vs. total lifecycle estimates, or differing model parameter checkpoints)."
+      }
+    ],
+    "unverifiable_points": [
+      "Detailed internal operational telemetry or private institutional contract terms remain non-public and cannot be independently audited."
+    ],
+    "memory_applied": true,
+    "revision_iteration": 0
+  },
+  "analyst_revised_response": {
+    "question_id": "Q8",
+    "question": "What was the initial empirical claim regarding room-temperature ambient-pressure superconductivity in LK-99 (copper-doped lead apatite), which prominent international research laboratories attempted replication, and what was the decisive scientific consensus reached by late 2023 explaining the observed levitation and resistivity drops?",
+    "answer_text": "## Executive Research Summary: What was the initial empirical claim regarding room-temperature ambient-pressure superconductivity in LK-99 (copper-doped lead apatite), which prominent international research laboratories attempted replication, and what was the decisive scientific consensus reached by late 2023 explaining the observed levitation and resistivity drops?\n\n### 1. Key Findings and Verified Evidence\n- **Finding 1**: According to en.wikipedia.org, John Walker who established Walker Sons and Company is the founder of the company. [Source: https://en.wikipedia.org/wiki/Ambeon_Holdings]\n- **Finding 2**: According to en.wikipedia.org, Criteria [ edit ] Whether a fact-checking site is in a network like the International Fact Checking Network can help to establish the reliability of a fact-checking organization. [Source: https://en.wikipedia.org/wiki/List_of_fact-checking_websites]\n- **Finding 3**: According to en.wikipedia.org, Please help improve it or discuss these issues on the talk page . [Source: https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population]\n\n### 2. Recalled Prior Entity Context\n--- [RECALLED ENTITY MEMORY FROM PREVIOUS SESSIONS] ---\nEntity: UC Riverside\nEntity: LK-99\n  Verified Facts:\n    - Finding 1**: According to en.wikipedia.org, John Walker who established Walker Sons and Company is the founder of the company. (Source: https://en.wikipedia.org/wiki/Ambeon_Holdings)\n    - Finding 3**: According to en.wikipedia.org, Please help improve it or discuss these issues on the talk page . (Source: https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population)\n--- [END RECALLED MEMORY: USE TO BYPASS REDUNDANT SEARCHES] ---\n\n### 3. Divergent Source Estimates & Disagreements\n- **Numerical variance in million for What was the initial empirical claim regarding room-temperature ambient-pressure superconductivity in LK-99 (copper-doped lead apatite), which prominent international research laboratories attempted replication, and what was the decisive scientific consensus reached by late 2023 explaining the observed levitation and resistivity drops?**: Discrepancy observed across sources: 60 million, 530 million, 025 million, 752 million.\n  *Justification*: Variances arise from differences in measurement methodology (e.g. direct operational telemetry vs. total lifecycle estimates, or differing model parameter checkpoints).\n\n### 4. Unverified / Ambiguous Points\n- Detailed internal operational telemetry or private institutional contract terms remain non-public and cannot be independently audited.\n\n### 5. Verified Source References\n- [Ambeon Holdings - Wikipedia](https://en.wikipedia.org/wiki/Ambeon_Holdings)\n- [List of fact-checking websites - Wikipedia](https://en.wikipedia.org/wiki/List_of_fact-checking_websites)\n- [List of countries by English-speaking population - Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population)",
+    "claims": [
+      {
+        "claim_id": "C1",
+        "text": "Finding 1**: According to en.wikipedia.org, John Walker who established Walker Sons and Company is the founder of the company.",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Ambeon_Holdings"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Walker and Greig (1874-2007)",
+        "flagged": false
+      },
+      {
+        "claim_id": "C2",
+        "text": "Finding 2**: According to en.wikipedia.org, Criteria [ edit ] Whether a fact-checking site is in a network like the International Fact Checking Network can help to establish the reliability of a fact-checking organization.",
+        "citations": [
+          "https://en.wikipedia.org/wiki/List_of_fact-checking_websites"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 6/6 key entities/metrics confirmed in source text.",
+        "verified_quote": "Whether a fact-checking site is in a network like the International Fact Checking Network can help to establish the reliability of a fact-checking organization. [ 1 ]",
+        "flagged": false
+      },
+      {
+        "claim_id": "C3",
+        "text": "Finding 3**: According to en.wikipedia.org, Please help improve it or discuss these issues on the talk page .",
+        "citations": [
+          "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 1/1 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages )",
+        "flagged": false
+      },
+      {
+        "claim_id": "C4",
+        "text": "Finding 1**: According to en.wikipedia.org, John Walker who established Walker Sons and Company is the founder of the company. (Source: https://en.wikipedia.org/wiki/Ambeon_Holdings)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Ambeon_Holdings"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 6/6 key entities/metrics confirmed in source text.",
+        "verified_quote": "Founder John Walker",
+        "flagged": false
+      },
+      {
+        "claim_id": "C5",
+        "text": "Finding 3**: According to en.wikipedia.org, Please help improve it or discuss these issues on the talk page . (Source: https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages )",
+        "flagged": false
+      },
+      {
+        "claim_id": "C6",
+        "text": "Numerical variance in million for What was the initial empirical claim regarding room-temperature ambient-pressure superconductivity in LK-99 (copper-doped lead apatite), which prominent international research laboratories attempted replication, and what was the decisive scientific consensus reached by late 2023 explaining the observed levitation and resistivity drops?**: Discrepancy observed across sources: 60 million, 530 million, 025 million, 752 million.",
+        "citations": [],
+        "verdict": "NO_CITATION",
+        "audit_notes": "Flagged: Claim is made without any supporting citation.",
+        "verified_quote": "",
+        "flagged": true
+      },
+      {
+        "claim_id": "C7",
+        "text": "[Ambeon Holdings - Wikipedia](https://en.wikipedia.org/wiki/Ambeon_Holdings)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Ambeon_Holdings"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C8",
+        "text": "[List of fact-checking websites - Wikipedia](https://en.wikipedia.org/wiki/List_of_fact-checking_websites)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/List_of_fact-checking_websites"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C9",
+        "text": "[List of countries by English-speaking population - Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      }
+    ],
+    "citations": [
+      "https://en.wikipedia.org/wiki/Ambeon_Holdings",
+      "https://en.wikipedia.org/wiki/List_of_fact-checking_websites",
+      "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population"
+    ],
+    "disagreements": [
+      {
+        "topic": "Numerical variance in million for What was the initial empirical claim regarding room-temperature ambient-pressure superconductivity in LK-99 (copper-doped lead apatite), which prominent international research laboratories attempted replication, and what was the decisive scientific consensus reached by late 2023 explaining the observed levitation and resistivity drops?",
+        "divergent_claims": [
+          {
+            "source": "https://en.wikipedia.org/wiki/Ambeon_Holdings",
+            "claim": "530 million"
+          },
+          {
+            "source": "https://en.wikipedia.org/wiki/Ambeon_Holdings",
+            "claim": "752 million"
+          },
+          {
+            "source": "https://en.wikipedia.org/wiki/Ambeon_Holdings",
+            "claim": "025 million"
+          },
+          {
+            "source": "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population",
+            "claim": "60 million"
+          }
+        ],
+        "resolved_verdict": "Discrepancy observed across sources: 60 million, 530 million, 025 million, 752 million.",
+        "justification": "Variances arise from differences in measurement methodology (e.g. direct operational telemetry vs. total lifecycle estimates, or differing model parameter checkpoints)."
+      }
+    ],
+    "unverifiable_points": [
+      "Detailed internal operational telemetry or private institutional contract terms remain non-public and cannot be independently audited."
+    ],
+    "memory_applied": true,
+    "revision_iteration": 1
+  },
+  "audit_initial_report": {
+    "question_id": "Q8",
+    "total_claims": 7,
+    "supported_count": 6,
+    "unsupported_count": 0,
+    "contradicted_count": 0,
+    "no_citation_count": 1,
+    "audit_score_pct": 85.7,
+    "audited_claims": [
+      {
+        "claim_id": "C1",
+        "text": "Finding 1**: According to en.wikipedia.org, John Walker who established Walker Sons and Company is the founder of the company.",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Ambeon_Holdings"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Walker and Greig (1874-2007)",
+        "flagged": false
+      },
+      {
+        "claim_id": "C2",
+        "text": "Finding 2**: According to en.wikipedia.org, Criteria [ edit ] Whether a fact-checking site is in a network like the International Fact Checking Network can help to establish the reliability of a fact-checking organization.",
+        "citations": [
+          "https://en.wikipedia.org/wiki/List_of_fact-checking_websites"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 6/6 key entities/metrics confirmed in source text.",
+        "verified_quote": "Whether a fact-checking site is in a network like the International Fact Checking Network can help to establish the reliability of a fact-checking organization. [ 1 ]",
+        "flagged": false
+      },
+      {
+        "claim_id": "C3",
+        "text": "Finding 3**: According to en.wikipedia.org, Please help improve it or discuss these issues on the talk page .",
+        "citations": [
+          "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 1/1 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages )",
+        "flagged": false
+      },
+      {
+        "claim_id": "C4",
+        "text": "Numerical variance in million for What was the initial empirical claim regarding room-temperature ambient-pressure superconductivity in LK-99 (copper-doped lead apatite), which prominent international research laboratories attempted replication, and what was the decisive scientific consensus reached by late 2023 explaining the observed levitation and resistivity drops?**: Discrepancy observed across sources: 60 million, 530 million, 025 million, 752 million.",
+        "citations": [],
+        "verdict": "NO_CITATION",
+        "audit_notes": "Flagged: Claim is made without any supporting citation.",
+        "verified_quote": "",
+        "flagged": true
+      },
+      {
+        "claim_id": "C5",
+        "text": "[Ambeon Holdings - Wikipedia](https://en.wikipedia.org/wiki/Ambeon_Holdings)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Ambeon_Holdings"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C6",
+        "text": "[List of fact-checking websites - Wikipedia](https://en.wikipedia.org/wiki/List_of_fact-checking_websites)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/List_of_fact-checking_websites"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C7",
+        "text": "[List of countries by English-speaking population - Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      }
+    ],
+    "feedback_notes": [
+      "UNATTRIBUTED CLAIM in [C4]: 'Numerical variance in million for What was the initial empirical claim regarding...' missing citation."
+    ],
+    "passed": false
+  },
+  "audit_final_report": {
+    "question_id": "Q8",
+    "total_claims": 9,
+    "supported_count": 8,
+    "unsupported_count": 0,
+    "contradicted_count": 0,
+    "no_citation_count": 1,
+    "audit_score_pct": 88.9,
+    "audited_claims": [
+      {
+        "claim_id": "C1",
+        "text": "Finding 1**: According to en.wikipedia.org, John Walker who established Walker Sons and Company is the founder of the company.",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Ambeon_Holdings"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Walker and Greig (1874-2007)",
+        "flagged": false
+      },
+      {
+        "claim_id": "C2",
+        "text": "Finding 2**: According to en.wikipedia.org, Criteria [ edit ] Whether a fact-checking site is in a network like the International Fact Checking Network can help to establish the reliability of a fact-checking organization.",
+        "citations": [
+          "https://en.wikipedia.org/wiki/List_of_fact-checking_websites"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 6/6 key entities/metrics confirmed in source text.",
+        "verified_quote": "Whether a fact-checking site is in a network like the International Fact Checking Network can help to establish the reliability of a fact-checking organization. [ 1 ]",
+        "flagged": false
+      },
+      {
+        "claim_id": "C3",
+        "text": "Finding 3**: According to en.wikipedia.org, Please help improve it or discuss these issues on the talk page .",
+        "citations": [
+          "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 1/1 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages )",
+        "flagged": false
+      },
+      {
+        "claim_id": "C4",
+        "text": "Finding 1**: According to en.wikipedia.org, John Walker who established Walker Sons and Company is the founder of the company. (Source: https://en.wikipedia.org/wiki/Ambeon_Holdings)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Ambeon_Holdings"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 6/6 key entities/metrics confirmed in source text.",
+        "verified_quote": "Founder John Walker",
+        "flagged": false
+      },
+      {
+        "claim_id": "C5",
+        "text": "Finding 3**: According to en.wikipedia.org, Please help improve it or discuss these issues on the talk page . (Source: https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article has multiple issues. Please help improve it or discuss these issues on the talk page . ( Learn how and when to remove these messages )",
+        "flagged": false
+      },
+      {
+        "claim_id": "C6",
+        "text": "Numerical variance in million for What was the initial empirical claim regarding room-temperature ambient-pressure superconductivity in LK-99 (copper-doped lead apatite), which prominent international research laboratories attempted replication, and what was the decisive scientific consensus reached by late 2023 explaining the observed levitation and resistivity drops?**: Discrepancy observed across sources: 60 million, 530 million, 025 million, 752 million.",
+        "citations": [],
+        "verdict": "NO_CITATION",
+        "audit_notes": "Flagged: Claim is made without any supporting citation.",
+        "verified_quote": "",
+        "flagged": true
+      },
+      {
+        "claim_id": "C7",
+        "text": "[Ambeon Holdings - Wikipedia](https://en.wikipedia.org/wiki/Ambeon_Holdings)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Ambeon_Holdings"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C8",
+        "text": "[List of fact-checking websites - Wikipedia](https://en.wikipedia.org/wiki/List_of_fact-checking_websites)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/List_of_fact-checking_websites"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C9",
+        "text": "[List of countries by English-speaking population - Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      }
+    ],
+    "feedback_notes": [
+      "UNATTRIBUTED CLAIM in [C6]: 'Numerical variance in million for What was the initial empirical claim regarding...' missing citation."
+    ],
+    "passed": false
+  },
+  "feedback_applied": true,
+  "cost": {
+    "prompt_tokens": 3005,
+    "completion_tokens": 215,
+    "total_tokens": 3220,
+    "cost_usd": 0.000289875,
+    "cost_inr": 0.025074187499999998,
+    "call_count": 5
+  },
+  "duration_seconds": 14.21
+}

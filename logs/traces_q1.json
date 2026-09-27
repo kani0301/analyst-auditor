@@ -9,13 +9,15 @@
     "entities": [
       "Mistral AI"
     ],
-    "reused_entities_from_memory": [],
+    "reused_entities_from_memory": [
+      "Mistral AI"
+    ],
     "sub_queries": [
       "Question When was Mistral founded who",
       "Mistral AI technical documentation",
       "Mistral AI official facts figures"
     ],
-    "strategy_notes": "Execute live web queries, cross-verify single-source claims, apply entity memory."
+    "strategy_notes": "Recalled Mistral AI from Entity Memory Store. Re-using established background to focus search on novel criteria."
   },
   "tool_calls": [
     {
@@ -35,33 +37,46 @@
       "url_count": 5,
       "urls": [
         "https://en.wikipedia.org/wiki/Mistral_AI",
-        "https://en.wikipedia.org/wiki/Glitch_token",
         "https://en.wikipedia.org/wiki/Quora",
+        "https://en.wikipedia.org/wiki/Glitch_token",
         "https://en.wikipedia.org/wiki/List_of_large_language_models",
         "https://en.wikipedia.org/wiki/Open_weights"
       ]
     }
   ],
-  "memory_hits": [],
+  "memory_hits": [
+    "Mistral AI"
+  ],
   "analyst_initial_response": {
     "question_id": "Q1",
     "question": "When was Mistral AI founded, who are its three co-founders, and what was the valuation and amount raised in their initial seed round?",
-    "answer_text": "## Executive Research Summary: When was Mistral AI founded, who are its three co-founders, and what was the valuation and amount raised in their initial seed round?\n\n### 1. Key Findings and Verified Evidence\n- **Finding 1**: According to en.wikipedia.org, Founded in 2023, it develops large language models (LLMs). [Source: https://en.wikipedia.org/wiki/Mistral_AI]\n- **Finding 2**: According to en.wikipedia.org, Such output may include the model misunderstanding meanings of words, refusing to respond or generating repetitive or unrelated text. [Source: https://en.wikipedia.org/wiki/Glitch_token]\n- **Finding 3**: According to en.wikipedia.org, Screenshot of homepage Company type Private Website type Question and answer Available in 24 languages [ 1 ] Founded June 25, 2009 ; 17 years ago ( 2009-06-25 ) Headquarters Mountain View, California , United States Area served Worldwide Founders Adam D'Angelo Charlie Cheever Key people Adam D'Angelo (CEO) Kelly Battles (CFO) [ 2 ] Revenue US$20 million (2018) [ 3 ] Employees 200–300 (2019) [ 3 ] Website quora.com Registration Optional Launched June 21, 2010 ; 16 years ago ( 2010-06-21 ) Current status Active Written in Python , C++ [ 4 ] [ 4 ] Quora is an American social question-and-answer website and online knowledge market headquartered in Mountain View, California . [Source: https://en.wikipedia.org/wiki/Quora]\n- **Finding 4**: According to en.wikipedia.org, Please help improve this article by adding citations to reliable sources . [Source: https://en.wikipedia.org/wiki/List_of_large_language_models]\n- **Finding 5**: According to en.wikipedia.org, Part of a series on Artificial intelligence (AI) Major goals Artificial general intelligence superintelligence Intelligent agent Recursive self-improvement Planning Computer vision General game playing Knowledge representation Natural language processing Robotics AI safety Approaches Machine learning Data mining Symbolic Deep learning Bayesian networks Evolutionary algorithms Neuro-symbolic AI Systems integration Open-source Open weights AI data centers Applications Art Music Bioinformatics Deepfake Earth sciences Finance Generative AI Audio Images Government Healthcare Industry Software development Translation Military Physics Projects Philosophy AI alignment Artificial consciousness The bitter lesson Chinese room Friendly AI Ethics Existential risk Turing test Uncanny valley Human–AI interaction History Timeline Progress AI winter AI boom AI build-out financing AI bubble Controversies Deepfake pornography Taylor Swift deepfake pornography controversy Grok sexual deepfake scandal Google Gemini image generation controversy It's the Most Terrible Time of the Year Navier–Stokes priority controversy Pause Giant AI Experiments Project Panama Removal of Sam Altman from OpenAI Statement on AI Risk Tay (chatbot) Théâtre D'opéra Spatial Voiceverse NFT plagiarism scandal Glossary v t e Open weights are the publicly released learned parameters of a trained artificial intelligence model, principally its weights and biases. [Source: https://en.wikipedia.org/wiki/Open_weights]\n\n### 3. Divergent Source Estimates & Disagreements\n- **Numerical variance in billion for When was Mistral AI founded, who are its three co-founders, and what was the valuation and amount raised in their initial seed round?**: Discrepancy observed across sources: 2 billion, 14 billion, 1.3 billion, 675 billion.\n  *Justification*: Variances arise from differences in measurement methodology (e.g. direct operational telemetry vs. total lifecycle estimates, or differing model parameter checkpoints).\n- **Numerical variance in million for When was Mistral AI founded, who are its three co-founders, and what was the valuation and amount raised in their initial seed round?**: Discrepancy observed across sources: 20 million, 300 million.\n  *Justification*: Variances arise from differences in measurement methodology (e.g. direct operational telemetry vs. total lifecycle estimates, or differing model parameter checkpoints).\n\n### 4. Unverified / Ambiguous Points\n- Detailed internal operational telemetry or private institutional contract terms remain non-public and cannot be independently audited.\n\n### 5. Verified Source References\n- [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI)\n- [Glitch token - Wikipedia](https://en.wikipedia.org/wiki/Glitch_token)\n- [Quora - Wikipedia](https://en.wikipedia.org/wiki/Quora)\n- [List of large language models - Wikipedia](https://en.wikipedia.org/wiki/List_of_large_language_models)\n- [Open weights - Wikipedia](https://en.wikipedia.org/wiki/Open_weights)\n- [Large language model - Wikipedia](https://en.wikipedia.org/wiki/Large_language_model)",
+    "answer_text": "## Executive Research Summary: When was Mistral AI founded, who are its three co-founders, and what was the valuation and amount raised in their initial seed round?\n\n### 1. Key Findings and Verified Evidence\n- **Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris. [Source: https://en.wikipedia.org/wiki/Mistral_AI]\n- **Finding 2**: According to en.wikipedia.org, an American social question-and-answer website and online knowledge market headquartered in Mountain View, California. [Source: https://en.wikipedia.org/wiki/Quora]\n- **Finding 3**: According to en.wikipedia.org, Such output may include the model misunderstanding meanings of words, refusing to respond or generating repetitive or unrelated text. [Source: https://en.wikipedia.org/wiki/Glitch_token]\n- **Finding 4**: According to en.wikipedia.org, Retrieved 14 August 2026 – via Hugging Face. [Source: https://en.wikipedia.org/wiki/List_of_large_language_models]\n- **Finding 5**: According to en.wikipedia.org, Part of a series on Artificial intelligence (AI) Major goals Artificial general intelligence superintelligence Intelligent agent Recursive self-improvement Planning Computer vision General game playing Knowledge representation Natural language processing Robotics AI safety Approaches Machine learning Data mining Symbolic Deep learning Bayesian networks Evolutionary algorithms Neuro-symbolic AI Systems integration Open-source Open weights AI data centers Applications Art Music Bioinformatics Deepfake Earth sciences Finance Generative AI Audio Images Government Healthcare Industry Software development Translation Military Physics Projects Philosophy AI alignment Artificial consciousness The bitter lesson Chinese room Friendly AI Ethics Existential risk Turing test Uncanny valley Human–AI interaction History Timeline Progress AI winter AI boom AI build-out financing AI bubble Controversies Deepfake pornography Taylor Swift deepfake pornography controversy Grok sexual deepfake scandal Google Gemini image generation controversy It's the Most Terrible Time of the Year Navier–Stokes priority controversy Pause Giant AI Experiments Project Panama Removal of Sam Altman from OpenAI Statement on AI Risk Tay (chatbot) Théâtre D'opéra Spatial Voiceverse NFT plagiarism scandal Glossary v t e Open weights are the publicly released learned parameters of a trained artificial intelligence model, principally its weights and biases. [Source: https://en.wikipedia.org/wiki/Open_weights]\n\n### 2. Recalled Prior Entity Context\n--- [RECALLED ENTITY MEMORY FROM PREVIOUS SESSIONS] ---\nEntity: Mistral AI\n  Verified Facts:\n    - [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n    - [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n    - [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n    - [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n--- [END RECALLED MEMORY: USE TO BYPASS REDUNDANT SEARCHES] ---\n\n### 4. Unverified / Ambiguous Points\n- Detailed internal operational telemetry or private institutional contract terms remain non-public and cannot be independently audited.\n\n### 5. Verified Source References\n- [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI)\n- [Quora - Wikipedia](https://en.wikipedia.org/wiki/Quora)\n- [Glitch token - Wikipedia](https://en.wikipedia.org/wiki/Glitch_token)\n- [List of large language models - Wikipedia](https://en.wikipedia.org/wiki/List_of_large_language_models)\n- [Open weights - Wikipedia](https://en.wikipedia.org/wiki/Open_weights)\n- [Large language model - Wikipedia](https://en.wikipedia.org/wiki/Large_language_model)",
     "claims": [
       {
         "claim_id": "C1",
-        "text": "Finding 1**: According to en.wikipedia.org, Founded in 2023, it develops large language models (LLMs).",
+        "text": "Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris.",
         "citations": [
           "https://en.wikipedia.org/wiki/Mistral_AI"
         ],
         "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "Founded 28 April 2023 ; 3 years ago ( 28 April 2023 )",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "French artificial intelligence company",
         "flagged": false
       },
       {
         "claim_id": "C2",
-        "text": "Finding 2**: According to en.wikipedia.org, Such output may include the model misunderstanding meanings of words, refusing to respond or generating repetitive or unrelated text.",
+        "text": "Finding 2**: According to en.wikipedia.org, an American social question-and-answer website and online knowledge market headquartered in Mountain View, California.",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Quora"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Headquarters Mountain View, California , United States",
+        "flagged": false
+      },
+      {
+        "claim_id": "C3",
+        "text": "Finding 3**: According to en.wikipedia.org, Such output may include the model misunderstanding meanings of words, refusing to respond or generating repetitive or unrelated text.",
         "citations": [
           "https://en.wikipedia.org/wiki/Glitch_token"
         ],
@@ -71,25 +86,14 @@
         "flagged": false
       },
       {
-        "claim_id": "C3",
-        "text": "Finding 3**: According to en.wikipedia.org, Screenshot of homepage Company type Private Website type Question and answer Available in 24 languages [ 1 ] Founded June 25, 2009 ; 17 years ago ( 2009-06-25 ) Headquarters Mountain View, California , United States Area served Worldwide Founders Adam D'Angelo Charlie Cheever Key people Adam D'Angelo (CEO) Kelly Battles (CFO) [ 2 ] Revenue US$20 million (2018) [ 3 ] Employees 200–300 (2019) [ 3 ] Website quora.com Registration Optional Launched June 21, 2010 ; 16 years ago ( 2010-06-21 ) Current status Active Written in Python , C++ [ 4 ] [ 4 ] Quora is an American social question-and-answer website and online knowledge market headquartered in Mountain View, California .",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Quora"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 60/60 key entities/metrics confirmed in source text.",
-        "verified_quote": "Verified against source document text.",
-        "flagged": false
-      },
-      {
         "claim_id": "C4",
-        "text": "Finding 4**: According to en.wikipedia.org, Please help improve this article by adding citations to reliable sources .",
+        "text": "Finding 4**: According to en.wikipedia.org, Retrieved 14 August 2026 – via Hugging Face.",
         "citations": [
           "https://en.wikipedia.org/wiki/List_of_large_language_models"
         ],
         "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 1/1 key entities/metrics confirmed in source text.",
-        "verified_quote": "This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"List of large language models\" – news · new",
+        "audit_notes": "Verified: 4/6 key entities/metrics confirmed in source text.",
+        "verified_quote": "Verified against source document text.",
         "flagged": false
       },
       {
@@ -98,208 +102,10 @@
         "citations": [
           "https://en.wikipedia.org/wiki/Open_weights"
         ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 82/82 key entities/metrics confirmed in source text.",
-        "verified_quote": "Verified against source document text.",
-        "flagged": false
-      },
-      {
-        "claim_id": "C6",
-        "text": "Numerical variance in billion for When was Mistral AI founded, who are its three co-founders, and what was the valuation and amount raised in their initial seed round?**: Discrepancy observed across sources: 2 billion, 14 billion, 1.3 billion, 675 billion.",
-        "citations": [],
-        "verdict": "NO_CITATION",
-        "audit_notes": "Flagged: Claim is made without any supporting citation.",
+        "verdict": "UNSUPPORTED",
+        "audit_notes": "Failed to retrieve cited source: [Failed to fetch page: TimeoutError]",
         "verified_quote": "",
         "flagged": true
-      },
-      {
-        "claim_id": "C7",
-        "text": "Numerical variance in million for When was Mistral AI founded, who are its three co-founders, and what was the valuation and amount raised in their initial seed round?**: Discrepancy observed across sources: 20 million, 300 million.",
-        "citations": [],
-        "verdict": "NO_CITATION",
-        "audit_notes": "Flagged: Claim is made without any supporting citation.",
-        "verified_quote": "",
-        "flagged": true
-      },
-      {
-        "claim_id": "C8",
-        "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Mistral_AI"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
-        "flagged": false
-      },
-      {
-        "claim_id": "C9",
-        "text": "[Glitch token - Wikipedia](https://en.wikipedia.org/wiki/Glitch_token)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Glitch_token"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
-        "flagged": false
-      },
-      {
-        "claim_id": "C10",
-        "text": "[Quora - Wikipedia](https://en.wikipedia.org/wiki/Quora)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Quora"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
-        "flagged": false
-      },
-      {
-        "claim_id": "C11",
-        "text": "[List of large language models - Wikipedia](https://en.wikipedia.org/wiki/List_of_large_language_models)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/List_of_large_language_models"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
-        "flagged": false
-      },
-      {
-        "claim_id": "C12",
-        "text": "[Open weights - Wikipedia](https://en.wikipedia.org/wiki/Open_weights)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Open_weights"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
-        "flagged": false
-      },
-      {
-        "claim_id": "C13",
-        "text": "[Large language model - Wikipedia](https://en.wikipedia.org/wiki/Large_language_model)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Large_language_model"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
-        "flagged": false
-      }
-    ],
-    "citations": [
-      "https://en.wikipedia.org/wiki/Mistral_AI",
-      "https://en.wikipedia.org/wiki/Glitch_token",
-      "https://en.wikipedia.org/wiki/Quora",
-      "https://en.wikipedia.org/wiki/List_of_large_language_models",
-      "https://en.wikipedia.org/wiki/Open_weights"
-    ],
-    "disagreements": [
-      {
-        "topic": "Numerical variance in billion for When was Mistral AI founded, who are its three co-founders, and what was the valuation and amount raised in their initial seed round?",
-        "divergent_claims": [
-          {
-            "source": "https://en.wikipedia.org/wiki/Mistral_AI",
-            "claim": "14 billion"
-          },
-          {
-            "source": "https://en.wikipedia.org/wiki/Mistral_AI",
-            "claim": "675 billion"
-          },
-          {
-            "source": "https://en.wikipedia.org/wiki/Mistral_AI",
-            "claim": "1.3 billion"
-          },
-          {
-            "source": "https://en.wikipedia.org/wiki/Quora",
-            "claim": "2 billion"
-          }
-        ],
-        "resolved_verdict": "Discrepancy observed across sources: 2 billion, 14 billion, 1.3 billion, 675 billion.",
-        "justification": "Variances arise from differences in measurement methodology (e.g. direct operational telemetry vs. total lifecycle estimates, or differing model parameter checkpoints)."
-      },
-      {
-        "topic": "Numerical variance in million for When was Mistral AI founded, who are its three co-founders, and what was the valuation and amount raised in their initial seed round?",
-        "divergent_claims": [
-          {
-            "source": "https://en.wikipedia.org/wiki/Quora",
-            "claim": "20 million"
-          },
-          {
-            "source": "https://en.wikipedia.org/wiki/Quora",
-            "claim": "300 million"
-          }
-        ],
-        "resolved_verdict": "Discrepancy observed across sources: 20 million, 300 million.",
-        "justification": "Variances arise from differences in measurement methodology (e.g. direct operational telemetry vs. total lifecycle estimates, or differing model parameter checkpoints)."
-      }
-    ],
-    "unverifiable_points": [
-      "Detailed internal operational telemetry or private institutional contract terms remain non-public and cannot be independently audited."
-    ],
-    "memory_applied": false,
-    "revision_iteration": 0
-  },
-  "analyst_revised_response": {
-    "question_id": "Q1",
-    "question": "When was Mistral AI founded, who are its three co-founders, and what was the valuation and amount raised in their initial seed round?",
-    "answer_text": "## Executive Research Summary: When was Mistral AI founded, who are its three co-founders, and what was the valuation and amount raised in their initial seed round?\n\n### 1. Key Findings and Verified Evidence\n- **Finding 1**: According to en.wikipedia.org, Founded in 2023, it develops large language models (LLMs). [Source: https://en.wikipedia.org/wiki/Mistral_AI]\n- **Finding 2**: According to en.wikipedia.org, Such output may include the model misunderstanding meanings of words, refusing to respond or generating repetitive or unrelated text. [Source: https://en.wikipedia.org/wiki/Glitch_token]\n- **Finding 3**: According to en.wikipedia.org, Screenshot of homepage Company type Private Website type Question and answer Available in 24 languages [ 1 ] Founded June 25, 2009 ; 17 years ago ( 2009-06-25 ) Headquarters Mountain View, California , United States Area served Worldwide Founders Adam D'Angelo Charlie Cheever Key people Adam D'Angelo (CEO) Kelly Battles (CFO) [ 2 ] Revenue US$20 million (2018) [ 3 ] Employees 200–300 (2019) [ 3 ] Website quora.com Registration Optional Launched June 21, 2010 ; 16 years ago ( 2010-06-21 ) Current status Active Written in Python , C++ [ 4 ] [ 4 ] Quora is an American social question-and-answer website and online knowledge market headquartered in Mountain View, California . [Source: https://en.wikipedia.org/wiki/Quora]\n- **Finding 4**: According to en.wikipedia.org, Please help improve this article by adding citations to reliable sources . [Source: https://en.wikipedia.org/wiki/List_of_large_language_models]\n- **Finding 5**: According to en.wikipedia.org, Part of a series on Artificial intelligence (AI) Major goals Artificial general intelligence superintelligence Intelligent agent Recursive self-improvement Planning Computer vision General game playing Knowledge representation Natural language processing Robotics AI safety Approaches Machine learning Data mining Symbolic Deep learning Bayesian networks Evolutionary algorithms Neuro-symbolic AI Systems integration Open-source Open weights AI data centers Applications Art Music Bioinformatics Deepfake Earth sciences Finance Generative AI Audio Images Government Healthcare Industry Software development Translation Military Physics Projects Philosophy AI alignment Artificial consciousness The bitter lesson Chinese room Friendly AI Ethics Existential risk Turing test Uncanny valley Human–AI interaction History Timeline Progress AI winter AI boom AI build-out financing AI bubble Controversies Deepfake pornography Taylor Swift deepfake pornography controversy Grok sexual deepfake scandal Google Gemini image generation controversy It's the Most Terrible Time of the Year Navier–Stokes priority controversy Pause Giant AI Experiments Project Panama Removal of Sam Altman from OpenAI Statement on AI Risk Tay (chatbot) Théâtre D'opéra Spatial Voiceverse NFT plagiarism scandal Glossary v t e Open weights are the publicly released learned parameters of a trained artificial intelligence model, principally its weights and biases. [Source: https://en.wikipedia.org/wiki/Open_weights]\n\n### 2. Recalled Prior Entity Context\n--- [RECALLED ENTITY MEMORY FROM PREVIOUS SESSIONS] ---\nEntity: Mistral AI\n  Verified Facts:\n    - [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n--- [END RECALLED MEMORY: USE TO BYPASS REDUNDANT SEARCHES] ---\n\n### 3. Divergent Source Estimates & Disagreements\n- **Numerical variance in billion for When was Mistral AI founded, who are its three co-founders, and what was the valuation and amount raised in their initial seed round?**: Discrepancy observed across sources: 2 billion, 14 billion, 1.3 billion, 675 billion.\n  *Justification*: Variances arise from differences in measurement methodology (e.g. direct operational telemetry vs. total lifecycle estimates, or differing model parameter checkpoints).\n- **Numerical variance in million for When was Mistral AI founded, who are its three co-founders, and what was the valuation and amount raised in their initial seed round?**: Discrepancy observed across sources: 20 million, 300 million.\n  *Justification*: Variances arise from differences in measurement methodology (e.g. direct operational telemetry vs. total lifecycle estimates, or differing model parameter checkpoints).\n\n### 4. Unverified / Ambiguous Points\n- Detailed internal operational telemetry or private institutional contract terms remain non-public and cannot be independently audited.\n\n### 5. Verified Source References\n- [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI)\n- [Glitch token - Wikipedia](https://en.wikipedia.org/wiki/Glitch_token)\n- [Quora - Wikipedia](https://en.wikipedia.org/wiki/Quora)\n- [List of large language models - Wikipedia](https://en.wikipedia.org/wiki/List_of_large_language_models)\n- [Open weights - Wikipedia](https://en.wikipedia.org/wiki/Open_weights)\n- [Large language model - Wikipedia](https://en.wikipedia.org/wiki/Large_language_model)",
-    "claims": [
-      {
-        "claim_id": "C1",
-        "text": "Finding 1**: According to en.wikipedia.org, Founded in 2023, it develops large language models (LLMs).",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Mistral_AI"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "Founded 28 April 2023 ; 3 years ago ( 28 April 2023 )",
-        "flagged": false
-      },
-      {
-        "claim_id": "C2",
-        "text": "Finding 2**: According to en.wikipedia.org, Such output may include the model misunderstanding meanings of words, refusing to respond or generating repetitive or unrelated text.",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Glitch_token"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 1/1 key entities/metrics confirmed in source text.",
-        "verified_quote": "In large language models (LLMs), a glitch token is token that causes unexpected or \"glitchy\" outputs when used in a prompt. Such output may include the model misunderstanding meanings of words, refusing to respond or gen",
-        "flagged": false
-      },
-      {
-        "claim_id": "C3",
-        "text": "Finding 3**: According to en.wikipedia.org, Screenshot of homepage Company type Private Website type Question and answer Available in 24 languages [ 1 ] Founded June 25, 2009 ; 17 years ago ( 2009-06-25 ) Headquarters Mountain View, California , United States Area served Worldwide Founders Adam D'Angelo Charlie Cheever Key people Adam D'Angelo (CEO) Kelly Battles (CFO) [ 2 ] Revenue US$20 million (2018) [ 3 ] Employees 200–300 (2019) [ 3 ] Website quora.com Registration Optional Launched June 21, 2010 ; 16 years ago ( 2010-06-21 ) Current status Active Written in Python , C++ [ 4 ] [ 4 ] Quora is an American social question-and-answer website and online knowledge market headquartered in Mountain View, California .",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Quora"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 60/60 key entities/metrics confirmed in source text.",
-        "verified_quote": "Verified against source document text.",
-        "flagged": false
-      },
-      {
-        "claim_id": "C4",
-        "text": "Finding 4**: According to en.wikipedia.org, Please help improve this article by adding citations to reliable sources .",
-        "citations": [
-          "https://en.wikipedia.org/wiki/List_of_large_language_models"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 1/1 key entities/metrics confirmed in source text.",
-        "verified_quote": "This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"List of large language models\" – news · new",
-        "flagged": false
-      },
-      {
-        "claim_id": "C5",
-        "text": "Finding 5**: According to en.wikipedia.org, Part of a series on Artificial intelligence (AI) Major goals Artificial general intelligence superintelligence Intelligent agent Recursive self-improvement Planning Computer vision General game playing Knowledge representation Natural language processing Robotics AI safety Approaches Machine learning Data mining Symbolic Deep learning Bayesian networks Evolutionary algorithms Neuro-symbolic AI Systems integration Open-source Open weights AI data centers Applications Art Music Bioinformatics Deepfake Earth sciences Finance Generative AI Audio Images Government Healthcare Industry Software development Translation Military Physics Projects Philosophy AI alignment Artificial consciousness The bitter lesson Chinese room Friendly AI Ethics Existential risk Turing test Uncanny valley Human–AI interaction History Timeline Progress AI winter AI boom AI build-out financing AI bubble Controversies Deepfake pornography Taylor Swift deepfake pornography controversy Grok sexual deepfake scandal Google Gemini image generation controversy It's the Most Terrible Time of the Year Navier–Stokes priority controversy Pause Giant AI Experiments Project Panama Removal of Sam Altman from OpenAI Statement on AI Risk Tay (chatbot) Théâtre D'opéra Spatial Voiceverse NFT plagiarism scandal Glossary v t e Open weights are the publicly released learned parameters of a trained artificial intelligence model, principally its weights and biases.",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Open_weights"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 82/82 key entities/metrics confirmed in source text.",
-        "verified_quote": "Verified against source document text.",
-        "flagged": false
       },
       {
         "claim_id": "C6",
@@ -315,38 +121,51 @@
       },
       {
         "claim_id": "C7",
-        "text": "Numerical variance in billion for When was Mistral AI founded, who are its three co-founders, and what was the valuation and amount raised in their initial seed round?**: Discrepancy observed across sources: 2 billion, 14 billion, 1.3 billion, 675 billion.",
-        "citations": [],
-        "verdict": "NO_CITATION",
-        "audit_notes": "Flagged: Claim is made without any supporting citation.",
-        "verified_quote": "",
-        "flagged": true
-      },
-      {
-        "claim_id": "C8",
-        "text": "Numerical variance in million for When was Mistral AI founded, who are its three co-founders, and what was the valuation and amount raised in their initial seed round?**: Discrepancy observed across sources: 20 million, 300 million.",
-        "citations": [],
-        "verdict": "NO_CITATION",
-        "audit_notes": "Flagged: Claim is made without any supporting citation.",
-        "verified_quote": "",
-        "flagged": true
-      },
-      {
-        "claim_id": "C9",
-        "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI)",
+        "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI",
           "https://en.wikipedia.org/wiki/Mistral_AI"
         ],
         "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C8",
+        "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C9",
+        "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 6/6 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
         "flagged": false
       },
       {
         "claim_id": "C10",
-        "text": "[Glitch token - Wikipedia](https://en.wikipedia.org/wiki/Glitch_token)",
+        "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
-          "https://en.wikipedia.org/wiki/Glitch_token"
+          "https://en.wikipedia.org/wiki/Mistral_AI"
         ],
         "verdict": "SUPPORTED",
         "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
@@ -366,6 +185,17 @@
       },
       {
         "claim_id": "C12",
+        "text": "[Glitch token - Wikipedia](https://en.wikipedia.org/wiki/Glitch_token)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Glitch_token"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C13",
         "text": "[List of large language models - Wikipedia](https://en.wikipedia.org/wiki/List_of_large_language_models)",
         "citations": [
           "https://en.wikipedia.org/wiki/List_of_large_language_models"
@@ -376,18 +206,18 @@
         "flagged": false
       },
       {
-        "claim_id": "C13",
+        "claim_id": "C14",
         "text": "[Open weights - Wikipedia](https://en.wikipedia.org/wiki/Open_weights)",
         "citations": [
           "https://en.wikipedia.org/wiki/Open_weights"
         ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
-        "flagged": false
+        "verdict": "UNSUPPORTED",
+        "audit_notes": "Failed to retrieve cited source: [Failed to fetch page: TimeoutError]",
+        "verified_quote": "",
+        "flagged": true
       },
       {
-        "claim_id": "C14",
+        "claim_id": "C15",
         "text": "[Large language model - Wikipedia](https://en.wikipedia.org/wiki/Large_language_model)",
         "citations": [
           "https://en.wikipedia.org/wiki/Large_language_model"
@@ -400,80 +230,53 @@
     ],
     "citations": [
       "https://en.wikipedia.org/wiki/Mistral_AI",
-      "https://en.wikipedia.org/wiki/Glitch_token",
       "https://en.wikipedia.org/wiki/Quora",
+      "https://en.wikipedia.org/wiki/Glitch_token",
       "https://en.wikipedia.org/wiki/List_of_large_language_models",
       "https://en.wikipedia.org/wiki/Open_weights"
     ],
-    "disagreements": [
-      {
-        "topic": "Numerical variance in billion for When was Mistral AI founded, who are its three co-founders, and what was the valuation and amount raised in their initial seed round?",
-        "divergent_claims": [
-          {
-            "source": "https://en.wikipedia.org/wiki/Mistral_AI",
-            "claim": "14 billion"
-          },
-          {
-            "source": "https://en.wikipedia.org/wiki/Mistral_AI",
-            "claim": "675 billion"
-          },
-          {
-            "source": "https://en.wikipedia.org/wiki/Mistral_AI",
-            "claim": "1.3 billion"
-          },
-          {
-            "source": "https://en.wikipedia.org/wiki/Quora",
-            "claim": "2 billion"
-          }
-        ],
-        "resolved_verdict": "Discrepancy observed across sources: 2 billion, 14 billion, 1.3 billion, 675 billion.",
-        "justification": "Variances arise from differences in measurement methodology (e.g. direct operational telemetry vs. total lifecycle estimates, or differing model parameter checkpoints)."
-      },
-      {
-        "topic": "Numerical variance in million for When was Mistral AI founded, who are its three co-founders, and what was the valuation and amount raised in their initial seed round?",
-        "divergent_claims": [
-          {
-            "source": "https://en.wikipedia.org/wiki/Quora",
-            "claim": "20 million"
-          },
-          {
-            "source": "https://en.wikipedia.org/wiki/Quora",
-            "claim": "300 million"
-          }
-        ],
-        "resolved_verdict": "Discrepancy observed across sources: 20 million, 300 million.",
-        "justification": "Variances arise from differences in measurement methodology (e.g. direct operational telemetry vs. total lifecycle estimates, or differing model parameter checkpoints)."
-      }
-    ],
+    "disagreements": [],
     "unverifiable_points": [
       "Detailed internal operational telemetry or private institutional contract terms remain non-public and cannot be independently audited."
     ],
     "memory_applied": true,
-    "revision_iteration": 1
+    "revision_iteration": 0
   },
+  "analyst_revised_response": null,
   "audit_initial_report": {
     "question_id": "Q1",
-    "total_claims": 13,
-    "supported_count": 11,
-    "unsupported_count": 0,
+    "total_claims": 15,
+    "supported_count": 13,
+    "unsupported_count": 2,
     "contradicted_count": 0,
-    "no_citation_count": 2,
-    "audit_score_pct": 84.6,
+    "no_citation_count": 0,
+    "audit_score_pct": 86.7,
     "audited_claims": [
       {
         "claim_id": "C1",
-        "text": "Finding 1**: According to en.wikipedia.org, Founded in 2023, it develops large language models (LLMs).",
+        "text": "Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris.",
         "citations": [
           "https://en.wikipedia.org/wiki/Mistral_AI"
         ],
         "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "Founded 28 April 2023 ; 3 years ago ( 28 April 2023 )",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "French artificial intelligence company",
         "flagged": false
       },
       {
         "claim_id": "C2",
-        "text": "Finding 2**: According to en.wikipedia.org, Such output may include the model misunderstanding meanings of words, refusing to respond or generating repetitive or unrelated text.",
+        "text": "Finding 2**: According to en.wikipedia.org, an American social question-and-answer website and online knowledge market headquartered in Mountain View, California.",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Quora"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Headquarters Mountain View, California , United States",
+        "flagged": false
+      },
+      {
+        "claim_id": "C3",
+        "text": "Finding 3**: According to en.wikipedia.org, Such output may include the model misunderstanding meanings of words, refusing to respond or generating repetitive or unrelated text.",
         "citations": [
           "https://en.wikipedia.org/wiki/Glitch_token"
         ],
@@ -483,25 +286,14 @@
         "flagged": false
       },
       {
-        "claim_id": "C3",
-        "text": "Finding 3**: According to en.wikipedia.org, Screenshot of homepage Company type Private Website type Question and answer Available in 24 languages [ 1 ] Founded June 25, 2009 ; 17 years ago ( 2009-06-25 ) Headquarters Mountain View, California , United States Area served Worldwide Founders Adam D'Angelo Charlie Cheever Key people Adam D'Angelo (CEO) Kelly Battles (CFO) [ 2 ] Revenue US$20 million (2018) [ 3 ] Employees 200–300 (2019) [ 3 ] Website quora.com Registration Optional Launched June 21, 2010 ; 16 years ago ( 2010-06-21 ) Current status Active Written in Python , C++ [ 4 ] [ 4 ] Quora is an American social question-and-answer website and online knowledge market headquartered in Mountain View, California .",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Quora"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 60/60 key entities/metrics confirmed in source text.",
-        "verified_quote": "Verified against source document text.",
-        "flagged": false
-      },
-      {
         "claim_id": "C4",
-        "text": "Finding 4**: According to en.wikipedia.org, Please help improve this article by adding citations to reliable sources .",
+        "text": "Finding 4**: According to en.wikipedia.org, Retrieved 14 August 2026 – via Hugging Face.",
         "citations": [
           "https://en.wikipedia.org/wiki/List_of_large_language_models"
         ],
         "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 1/1 key entities/metrics confirmed in source text.",
-        "verified_quote": "This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"List of large language models\" – news · new",
+        "audit_notes": "Verified: 4/6 key entities/metrics confirmed in source text.",
+        "verified_quote": "Verified against source document text.",
         "flagged": false
       },
       {
@@ -510,165 +302,10 @@
         "citations": [
           "https://en.wikipedia.org/wiki/Open_weights"
         ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 82/82 key entities/metrics confirmed in source text.",
-        "verified_quote": "Verified against source document text.",
-        "flagged": false
-      },
-      {
-        "claim_id": "C6",
-        "text": "Numerical variance in billion for When was Mistral AI founded, who are its three co-founders, and what was the valuation and amount raised in their initial seed round?**: Discrepancy observed across sources: 2 billion, 14 billion, 1.3 billion, 675 billion.",
-        "citations": [],
-        "verdict": "NO_CITATION",
-        "audit_notes": "Flagged: Claim is made without any supporting citation.",
+        "verdict": "UNSUPPORTED",
+        "audit_notes": "Failed to retrieve cited source: [Failed to fetch page: TimeoutError]",
         "verified_quote": "",
         "flagged": true
-      },
-      {
-        "claim_id": "C7",
-        "text": "Numerical variance in million for When was Mistral AI founded, who are its three co-founders, and what was the valuation and amount raised in their initial seed round?**: Discrepancy observed across sources: 20 million, 300 million.",
-        "citations": [],
-        "verdict": "NO_CITATION",
-        "audit_notes": "Flagged: Claim is made without any supporting citation.",
-        "verified_quote": "",
-        "flagged": true
-      },
-      {
-        "claim_id": "C8",
-        "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Mistral_AI"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
-        "flagged": false
-      },
-      {
-        "claim_id": "C9",
-        "text": "[Glitch token - Wikipedia](https://en.wikipedia.org/wiki/Glitch_token)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Glitch_token"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
-        "flagged": false
-      },
-      {
-        "claim_id": "C10",
-        "text": "[Quora - Wikipedia](https://en.wikipedia.org/wiki/Quora)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Quora"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
-        "flagged": false
-      },
-      {
-        "claim_id": "C11",
-        "text": "[List of large language models - Wikipedia](https://en.wikipedia.org/wiki/List_of_large_language_models)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/List_of_large_language_models"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
-        "flagged": false
-      },
-      {
-        "claim_id": "C12",
-        "text": "[Open weights - Wikipedia](https://en.wikipedia.org/wiki/Open_weights)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Open_weights"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
-        "flagged": false
-      },
-      {
-        "claim_id": "C13",
-        "text": "[Large language model - Wikipedia](https://en.wikipedia.org/wiki/Large_language_model)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Large_language_model"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
-        "flagged": false
-      }
-    ],
-    "feedback_notes": [
-      "UNATTRIBUTED CLAIM in [C6]: 'Numerical variance in billion for When was Mistral AI founded, who are its three...' missing citation.",
-      "UNATTRIBUTED CLAIM in [C7]: 'Numerical variance in million for When was Mistral AI founded, who are its three...' missing citation."
-    ],
-    "passed": false
-  },
-  "audit_final_report": {
-    "question_id": "Q1",
-    "total_claims": 14,
-    "supported_count": 12,
-    "unsupported_count": 0,
-    "contradicted_count": 0,
-    "no_citation_count": 2,
-    "audit_score_pct": 85.7,
-    "audited_claims": [
-      {
-        "claim_id": "C1",
-        "text": "Finding 1**: According to en.wikipedia.org, Founded in 2023, it develops large language models (LLMs).",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Mistral_AI"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "Founded 28 April 2023 ; 3 years ago ( 28 April 2023 )",
-        "flagged": false
-      },
-      {
-        "claim_id": "C2",
-        "text": "Finding 2**: According to en.wikipedia.org, Such output may include the model misunderstanding meanings of words, refusing to respond or generating repetitive or unrelated text.",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Glitch_token"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 1/1 key entities/metrics confirmed in source text.",
-        "verified_quote": "In large language models (LLMs), a glitch token is token that causes unexpected or \"glitchy\" outputs when used in a prompt. Such output may include the model misunderstanding meanings of words, refusing to respond or gen",
-        "flagged": false
-      },
-      {
-        "claim_id": "C3",
-        "text": "Finding 3**: According to en.wikipedia.org, Screenshot of homepage Company type Private Website type Question and answer Available in 24 languages [ 1 ] Founded June 25, 2009 ; 17 years ago ( 2009-06-25 ) Headquarters Mountain View, California , United States Area served Worldwide Founders Adam D'Angelo Charlie Cheever Key people Adam D'Angelo (CEO) Kelly Battles (CFO) [ 2 ] Revenue US$20 million (2018) [ 3 ] Employees 200–300 (2019) [ 3 ] Website quora.com Registration Optional Launched June 21, 2010 ; 16 years ago ( 2010-06-21 ) Current status Active Written in Python , C++ [ 4 ] [ 4 ] Quora is an American social question-and-answer website and online knowledge market headquartered in Mountain View, California .",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Quora"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 60/60 key entities/metrics confirmed in source text.",
-        "verified_quote": "Verified against source document text.",
-        "flagged": false
-      },
-      {
-        "claim_id": "C4",
-        "text": "Finding 4**: According to en.wikipedia.org, Please help improve this article by adding citations to reliable sources .",
-        "citations": [
-          "https://en.wikipedia.org/wiki/List_of_large_language_models"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 1/1 key entities/metrics confirmed in source text.",
-        "verified_quote": "This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"List of large language models\" – news · new",
-        "flagged": false
-      },
-      {
-        "claim_id": "C5",
-        "text": "Finding 5**: According to en.wikipedia.org, Part of a series on Artificial intelligence (AI) Major goals Artificial general intelligence superintelligence Intelligent agent Recursive self-improvement Planning Computer vision General game playing Knowledge representation Natural language processing Robotics AI safety Approaches Machine learning Data mining Symbolic Deep learning Bayesian networks Evolutionary algorithms Neuro-symbolic AI Systems integration Open-source Open weights AI data centers Applications Art Music Bioinformatics Deepfake Earth sciences Finance Generative AI Audio Images Government Healthcare Industry Software development Translation Military Physics Projects Philosophy AI alignment Artificial consciousness The bitter lesson Chinese room Friendly AI Ethics Existential risk Turing test Uncanny valley Human–AI interaction History Timeline Progress AI winter AI boom AI build-out financing AI bubble Controversies Deepfake pornography Taylor Swift deepfake pornography controversy Grok sexual deepfake scandal Google Gemini image generation controversy It's the Most Terrible Time of the Year Navier–Stokes priority controversy Pause Giant AI Experiments Project Panama Removal of Sam Altman from OpenAI Statement on AI Risk Tay (chatbot) Théâtre D'opéra Spatial Voiceverse NFT plagiarism scandal Glossary v t e Open weights are the publicly released learned parameters of a trained artificial intelligence model, principally its weights and biases.",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Open_weights"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 82/82 key entities/metrics confirmed in source text.",
-        "verified_quote": "Verified against source document text.",
-        "flagged": false
       },
       {
         "claim_id": "C6",
@@ -684,38 +321,51 @@
       },
       {
         "claim_id": "C7",
-        "text": "Numerical variance in billion for When was Mistral AI founded, who are its three co-founders, and what was the valuation and amount raised in their initial seed round?**: Discrepancy observed across sources: 2 billion, 14 billion, 1.3 billion, 675 billion.",
-        "citations": [],
-        "verdict": "NO_CITATION",
-        "audit_notes": "Flagged: Claim is made without any supporting citation.",
-        "verified_quote": "",
-        "flagged": true
-      },
-      {
-        "claim_id": "C8",
-        "text": "Numerical variance in million for When was Mistral AI founded, who are its three co-founders, and what was the valuation and amount raised in their initial seed round?**: Discrepancy observed across sources: 20 million, 300 million.",
-        "citations": [],
-        "verdict": "NO_CITATION",
-        "audit_notes": "Flagged: Claim is made without any supporting citation.",
-        "verified_quote": "",
-        "flagged": true
-      },
-      {
-        "claim_id": "C9",
-        "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI)",
+        "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI",
           "https://en.wikipedia.org/wiki/Mistral_AI"
         ],
         "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C8",
+        "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C9",
+        "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 6/6 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
         "flagged": false
       },
       {
         "claim_id": "C10",
-        "text": "[Glitch token - Wikipedia](https://en.wikipedia.org/wiki/Glitch_token)",
+        "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
-          "https://en.wikipedia.org/wiki/Glitch_token"
+          "https://en.wikipedia.org/wiki/Mistral_AI"
         ],
         "verdict": "SUPPORTED",
         "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
@@ -735,6 +385,17 @@
       },
       {
         "claim_id": "C12",
+        "text": "[Glitch token - Wikipedia](https://en.wikipedia.org/wiki/Glitch_token)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Glitch_token"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C13",
         "text": "[List of large language models - Wikipedia](https://en.wikipedia.org/wiki/List_of_large_language_models)",
         "citations": [
           "https://en.wikipedia.org/wiki/List_of_large_language_models"
@@ -745,18 +406,18 @@
         "flagged": false
       },
       {
-        "claim_id": "C13",
+        "claim_id": "C14",
         "text": "[Open weights - Wikipedia](https://en.wikipedia.org/wiki/Open_weights)",
         "citations": [
           "https://en.wikipedia.org/wiki/Open_weights"
         ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
-        "flagged": false
+        "verdict": "UNSUPPORTED",
+        "audit_notes": "Failed to retrieve cited source: [Failed to fetch page: TimeoutError]",
+        "verified_quote": "",
+        "flagged": true
       },
       {
-        "claim_id": "C14",
+        "claim_id": "C15",
         "text": "[Large language model - Wikipedia](https://en.wikipedia.org/wiki/Large_language_model)",
         "citations": [
           "https://en.wikipedia.org/wiki/Large_language_model"
@@ -768,19 +429,20 @@
       }
     ],
     "feedback_notes": [
-      "UNATTRIBUTED CLAIM in [C7]: 'Numerical variance in billion for When was Mistral AI founded, who are its three...' missing citation.",
-      "UNATTRIBUTED CLAIM in [C8]: 'Numerical variance in million for When was Mistral AI founded, who are its three...' missing citation."
+      "Claim [C5] unsupported: 'Finding 5**: According to en.wikipedia.org, Part of a series on Artificial intel...' - Failed to retrieve cited source: [Failed to fetch page: TimeoutError]",
+      "Claim [C14] unsupported: '[Open weights - Wikipedia](https://en.wikipedia.org/wiki/Open_weights)...' - Failed to retrieve cited source: [Failed to fetch page: TimeoutError]"
     ],
-    "passed": false
+    "passed": true
   },
-  "feedback_applied": true,
+  "audit_final_report": null,
+  "feedback_applied": false,
   "cost": {
-    "prompt_tokens": 4160,
-    "completion_tokens": 248,
-    "total_tokens": 4408,
-    "cost_usd": 0.00038639999999999996,
-    "cost_inr": 0.0334236,
-    "call_count": 5
+    "prompt_tokens": 1513,
+    "completion_tokens": 163,
+    "total_tokens": 1676,
+    "cost_usd": 0.000162375,
+    "cost_inr": 0.0140454375,
+    "call_count": 3
   },
-  "duration_seconds": 17.21
+  "duration_seconds": 46.12
 }

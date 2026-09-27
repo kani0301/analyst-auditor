@@ -16,14 +16,16 @@
       "Mistral AI",
       "DeepSeek-V2",
       "DeepSeek-V3",
-      "DeepSeek-R1"
+      "DeepSeek-R1",
+      "Compare DeepSeek",
+      "Mixtral 8x7B"
     ],
     "sub_queries": [
       "Question Compare DeepSeek DeepSeek-V3 and Mistral",
       "Compare DeepSeek DeepSeek-V3 Mistral AI Mixtral 8x7B technical documentation",
       "Compare DeepSeek DeepSeek-V3 Mistral AI Mixtral 8x7B official facts figures"
     ],
-    "strategy_notes": "Recalled Mistral AI, DeepSeek-V2, DeepSeek-V3, DeepSeek-R1 from Entity Memory Store. Re-using established background to focus search on novel criteria."
+    "strategy_notes": "Recalled Mistral AI, DeepSeek-V2, DeepSeek-V3, DeepSeek-R1, Compare DeepSeek, Mixtral 8x7B from Entity Memory Store. Re-using established background to focus search on novel criteria."
   },
   "tool_calls": [
     {
@@ -40,11 +42,12 @@
     },
     {
       "tool": "fetch_page_parallel",
-      "url_count": 3,
+      "url_count": 4,
       "urls": [
         "https://en.wikipedia.org/wiki/List_of_large_language_models",
         "https://en.wikipedia.org/wiki/Reasoning_model",
-        "https://en.wikipedia.org/wiki/OpenAI"
+        "https://en.wikipedia.org/wiki/OpenAI",
+        "https://en.wikipedia.org/wiki/Mixture_of_experts"
       ]
     }
   ],
@@ -52,12 +55,14 @@
     "Mistral AI",
     "DeepSeek-V2",
     "DeepSeek-V3",
-    "DeepSeek-R1"
+    "DeepSeek-R1",
+    "Compare DeepSeek",
+    "Mixtral 8x7B"
   ],
   "analyst_initial_response": {
     "question_id": "Q7",
     "question": "Compare DeepSeek (DeepSeek-V3 / R1) and Mistral AI (Mixtral 8x7B / Mistral Large) regarding their open-weights licensing philosophy, claimed per-million token API pricing economics, and enterprise self-hosting trade-offs.",
-    "answer_text": "## Executive Research Summary: Compare DeepSeek (DeepSeek-V3 / R1) and Mistral AI (Mixtral 8x7B / Mistral Large) regarding their open-weights licensing philosophy, claimed per-million token API pricing economics, and enterprise self-hosting trade-offs.\n\n### 1. Key Findings and Verified Evidence\n- **Finding 1**: According to en.wikipedia.org, Please help improve this article by adding citations to reliable sources . [Source: https://en.wikipedia.org/wiki/List_of_large_language_models]\n- **Finding 2**: According to en.wikipedia.org, [ 1 ] They tend to do better on logic, math, and programming tasks than standard LLMs, can revisit and revise earlier steps, make use of extra computations, and enhance performance when increasing the number of parameters, training examples, and training computations. [Source: https://en.wikipedia.org/wiki/Reasoning_model]\n- **Finding 3**: According to en.wikipedia.org, OpenAI Headquarters in 1515 Third Street , San Francisco Type Private Industry Generative AI Founded December 8, 2015 (10 years ago) ( 2015-12-08 ) [ 1 ] Founders Elon Musk Sam Altman Ilya Sutskever Greg Brockman Trevor Blackwell (et al.) [ a ] Headquarters 1455 and 1515 Third Street , San Francisco , California, U.S. [Source: https://en.wikipedia.org/wiki/OpenAI]\n\n### 2. Recalled Prior Entity Context\n--- [RECALLED ENTITY MEMORY FROM PREVIOUS SESSIONS] ---\nEntity: Mistral AI\n  Verified Facts:\n    - [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n    - [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n    - [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n    - [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\nEntity: DeepSeek-V2\n  Verified Facts:\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\nEntity: DeepSeek-V3\n  Verified Facts:\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\nEntity: DeepSeek-R1\n  Verified Facts:\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n--- [END RECALLED MEMORY: USE TO BYPASS REDUNDANT SEARCHES] ---\n\n### 3. Divergent Source Estimates & Disagreements\n- **Numerical variance in billion for Compare DeepSeek (DeepSeek-V3 / R1) and Mistral AI (Mixtral 8x7B / Mistral Large) regarding their open-weights licensing philosophy, claimed per-million token API pricing economics, and enterprise self-hosting trade-offs.**: Discrepancy observed across sources: 13.1 billion, 9 billion.\n  *Justification*: Variances arise from differences in measurement methodology (e.g. direct operational telemetry vs. total lifecycle estimates, or differing model parameter checkpoints).\n\n### 4. Unverified / Ambiguous Points\n- Detailed internal operational telemetry or private institutional contract terms remain non-public and cannot be independently audited.\n\n### 5. Verified Source References\n- [List of large language models - Wikipedia](https://en.wikipedia.org/wiki/List_of_large_language_models)\n- [Reasoning model - Wikipedia](https://en.wikipedia.org/wiki/Reasoning_model)\n- [OpenAI - Wikipedia](https://en.wikipedia.org/wiki/OpenAI)",
+    "answer_text": "## Executive Research Summary: Compare DeepSeek (DeepSeek-V3 / R1) and Mistral AI (Mixtral 8x7B / Mistral Large) regarding their open-weights licensing philosophy, claimed per-million token API pricing economics, and enterprise self-hosting trade-offs.\n\n### 1. Key Findings and Verified Evidence\n- **Finding 1**: According to en.wikipedia.org, Please help improve this article by adding citations to reliable sources . [Source: https://en.wikipedia.org/wiki/List_of_large_language_models]\n- **Finding 2**: According to en.wikipedia.org, [ 1 ] They tend to do better on logic, math, and programming tasks than standard LLMs, can revisit and revise earlier steps, make use of extra computations, and enhance performance when increasing the number of parameters, training examples, and training computations. [Source: https://en.wikipedia.org/wiki/Reasoning_model]\n- **Finding 3**: According to en.wikipedia.org, OpenAI Headquarters in 1515 Third Street , San Francisco Type Private Industry Generative AI Founded December 8, 2015 (10 years ago) ( 2015-12-08 ) [ 1 ] Founders Elon Musk Sam Altman Ilya Sutskever Greg Brockman Trevor Blackwell (et al.) [ a ] Headquarters 1455 and 1515 Third Street , San Francisco , California, U.S. [Source: https://en.wikipedia.org/wiki/OpenAI]\n- **Finding 4**: According to en.wikipedia.org, Part of a series on Machine learning and data mining Paradigms Supervised learning Unsupervised learning Semi-supervised learning Self-supervised learning Reinforcement learning Transfer learning Meta-learning Few-shot learning Zero-shot learning Online learning Batch learning Curriculum learning Rule-based learning Neuro-symbolic AI Neuromorphic engineering Quantum machine learning Problems Classification Generative modeling Regression Clustering Dimensionality reduction Density estimation Anomaly detection Data cleaning AutoML Association rules Semantic analysis Structured prediction Feature engineering Feature learning Learning to rank Grammar induction Ontology learning Multimodal learning Supervised learning ( classification • regression ) Apprenticeship learning Decision trees Ensembles Bagging Boosting Random forest k -NN Linear regression Naive Bayes Artificial neural networks Logistic regression Perceptron Relevance vector machine (RVM) Support vector machine (SVM) Clustering BIRCH CURE Hierarchical k -means Fuzzy Expectation–maximization (EM) DBSCAN OPTICS Mean shift Dimensionality reduction Factor analysis Exploratory CCA ICA LDA NMF PCA PGD t-SNE SDL Structured prediction Graphical models Bayes net Conditional random field Hidden Markov Anomaly detection RANSAC k -NN Local outlier factor Isolation forest Neural networks Autoencoder Deep learning Feedforward neural network Recurrent neural network LSTM GRU ESN reservoir computing Boltzmann machine Restricted GAN Diffusion model SOM Convolutional neural network U-Net LeNet AlexNet DeepDream Neural field Neural radiance field Physics-informed neural networks Transformer Vision Mamba Spiking neural network Memtransistor Electrochemical RAM (ECRAM) Reinforcement learning Q-learning Policy gradient SARSA Temporal difference (TD) Multi-agent Self-play Learning with humans Active learning Crowdsourcing Human-in-the-loop Mechanistic interpretability RLHF Model diagnostics Coefficient of determination Confusion matrix Learning curve ROC curve Mathematical foundations Kernel machines Bias–variance tradeoff Computational learning theory Empirical risk minimization Occam learning PAC learning Statistical learning VC theory Topological deep learning Journals and conferences AAAI CVPR ECCV ECML PKDD EMNLP ICCV NeurIPS ICML ICLR IJCAI ML JMLR Related articles Glossary of artificial intelligence List of datasets for machine-learning research List of datasets in computer vision and image processing Outline of machine learning v t e Mixture of experts ( MoE ) is a machine learning technique where multiple expert networks (learners) are used to divide a problem space into homogeneous regions. [Source: https://en.wikipedia.org/wiki/Mixture_of_experts]\n\n### 2. Recalled Prior Entity Context\n--- [RECALLED ENTITY MEMORY FROM PREVIOUS SESSIONS] ---\nEntity: Mistral AI\n  Verified Facts:\n    - [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n    - [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n    - [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n    - [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n    - Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris. (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n    - Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris. (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n    - Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris. (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https:// (Source: https://en.wikipedia.org/wiki/Mistral_AI)\nEntity: DeepSeek-V2\n  Verified Facts:\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wi (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\nEntity: DeepSeek-V3\n  Verified Facts:\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wi (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\nEntity: DeepSeek-R1\n  Verified Facts:\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wi (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\nEntity: Compare DeepSeek\nEntity: Mixtral 8x7B\n--- [END RECALLED MEMORY: USE TO BYPASS REDUNDANT SEARCHES] ---\n\n### 3. Divergent Source Estimates & Disagreements\n- **Numerical variance in billion for Compare DeepSeek (DeepSeek-V3 / R1) and Mistral AI (Mixtral 8x7B / Mistral Large) regarding their open-weights licensing philosophy, claimed per-million token API pricing economics, and enterprise self-hosting trade-offs.**: Discrepancy observed across sources: 13.1 billion, 9 billion.\n  *Justification*: Variances arise from differences in measurement methodology (e.g. direct operational telemetry vs. total lifecycle estimates, or differing model parameter checkpoints).\n\n### 4. Unverified / Ambiguous Points\n- Detailed internal operational telemetry or private institutional contract terms remain non-public and cannot be independently audited.\n\n### 5. Verified Source References\n- [List of large language models - Wikipedia](https://en.wikipedia.org/wiki/List_of_large_language_models)\n- [Reasoning model - Wikipedia](https://en.wikipedia.org/wiki/Reasoning_model)\n- [OpenAI - Wikipedia](https://en.wikipedia.org/wiki/OpenAI)\n- [Mixture of experts - Wikipedia](https://en.wikipedia.org/wiki/Mixture_of_experts)",
     "claims": [
       {
         "claim_id": "C1",
@@ -94,6 +99,17 @@
       },
       {
         "claim_id": "C4",
+        "text": "Finding 4**: According to en.wikipedia.org, Part of a series on Machine learning and data mining Paradigms Supervised learning Unsupervised learning Semi-supervised learning Self-supervised learning Reinforcement learning Transfer learning Meta-learning Few-shot learning Zero-shot learning Online learning Batch learning Curriculum learning Rule-based learning Neuro-symbolic AI Neuromorphic engineering Quantum machine learning Problems Classification Generative modeling Regression Clustering Dimensionality reduction Density estimation Anomaly detection Data cleaning AutoML Association rules Semantic analysis Structured prediction Feature engineering Feature learning Learning to rank Grammar induction Ontology learning Multimodal learning Supervised learning ( classification • regression ) Apprenticeship learning Decision trees Ensembles Bagging Boosting Random forest k -NN Linear regression Naive Bayes Artificial neural networks Logistic regression Perceptron Relevance vector machine (RVM) Support vector machine (SVM) Clustering BIRCH CURE Hierarchical k -means Fuzzy Expectation–maximization (EM) DBSCAN OPTICS Mean shift Dimensionality reduction Factor analysis Exploratory CCA ICA LDA NMF PCA PGD t-SNE SDL Structured prediction Graphical models Bayes net Conditional random field Hidden Markov Anomaly detection RANSAC k -NN Local outlier factor Isolation forest Neural networks Autoencoder Deep learning Feedforward neural network Recurrent neural network LSTM GRU ESN reservoir computing Boltzmann machine Restricted GAN Diffusion model SOM Convolutional neural network U-Net LeNet AlexNet DeepDream Neural field Neural radiance field Physics-informed neural networks Transformer Vision Mamba Spiking neural network Memtransistor Electrochemical RAM (ECRAM) Reinforcement learning Q-learning Policy gradient SARSA Temporal difference (TD) Multi-agent Self-play Learning with humans Active learning Crowdsourcing Human-in-the-loop Mechanistic interpretability RLHF Model diagnostics Coefficient of determination Confusion matrix Learning curve ROC curve Mathematical foundations Kernel machines Bias–variance tradeoff Computational learning theory Empirical risk minimization Occam learning PAC learning Statistical learning VC theory Topological deep learning Journals and conferences AAAI CVPR ECCV ECML PKDD EMNLP ICCV NeurIPS ICML ICLR IJCAI ML JMLR Related articles Glossary of artificial intelligence List of datasets for machine-learning research List of datasets in computer vision and image processing Outline of machine learning v t e Mixture of experts ( MoE ) is a machine learning technique where multiple expert networks (learners) are used to divide a problem space into homogeneous regions.",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Mixture_of_experts"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 117/117 key entities/metrics confirmed in source text.",
+        "verified_quote": "Verified against source document text.",
+        "flagged": false
+      },
+      {
+        "claim_id": "C5",
         "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
           "https://en.wikipedia.org/wiki/Mistral_AI",
@@ -105,7 +121,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C5",
+        "claim_id": "C6",
         "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
           "https://en.wikipedia.org/wiki/Mistral_AI",
@@ -118,7 +134,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C6",
+        "claim_id": "C7",
         "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
           "https://en.wikipedia.org/wiki/Mistral_AI",
@@ -132,7 +148,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C7",
+        "claim_id": "C8",
         "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
           "https://en.wikipedia.org/wiki/Mistral_AI",
@@ -147,49 +163,38 @@
         "flagged": false
       },
       {
-        "claim_id": "C8",
-        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/DeepSeek"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
-        "flagged": false
-      },
-      {
         "claim_id": "C9",
-        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "text": "Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris. (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
-          "https://en.wikipedia.org/wiki/DeepSeek",
-          "https://en.wikipedia.org/wiki/DeepSeek"
+          "https://en.wikipedia.org/wiki/Mistral_AI"
         ],
         "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "French artificial intelligence company",
         "flagged": false
       },
       {
         "claim_id": "C10",
-        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "text": "Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris. (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
-          "https://en.wikipedia.org/wiki/DeepSeek"
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI"
         ],
         "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
+        "audit_notes": "Verified: 6/6 key entities/metrics confirmed in source text.",
+        "verified_quote": "Mistral AI SAS ( French: [ mistʁal ] ) is a French artificial intelligence (AI) company headquartered in Paris . Founded in 2023, it develops large language models (LLMs). As of 2025, the company has a valuation of more ",
         "flagged": false
       },
       {
         "claim_id": "C11",
-        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "text": "Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris. (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https:// (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
-          "https://en.wikipedia.org/wiki/DeepSeek",
-          "https://en.wikipedia.org/wiki/DeepSeek"
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI"
         ],
         "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "audit_notes": "Verified: 7/7 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
         "flagged": false
       },
       {
@@ -217,6 +222,295 @@
       },
       {
         "claim_id": "C14",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
+        "flagged": false
+      },
+      {
+        "claim_id": "C15",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C16",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C17",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C18",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wi (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wi",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C19",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C20",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
+        "flagged": false
+      },
+      {
+        "claim_id": "C21",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C22",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
+        "flagged": false
+      },
+      {
+        "claim_id": "C23",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C24",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C25",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C26",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wi (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wi",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C27",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C28",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
+        "flagged": false
+      },
+      {
+        "claim_id": "C29",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C30",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
+        "flagged": false
+      },
+      {
+        "claim_id": "C31",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C32",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C33",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C34",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wi (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wi",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C35",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C36",
         "text": "Numerical variance in billion for Compare DeepSeek (DeepSeek-V3 / R1) and Mistral AI (Mixtral 8x7B / Mistral Large) regarding their open-weights licensing philosophy, claimed per-million token API pricing economics, and enterprise self-hosting trade-offs.**: Discrepancy observed across sources: 13.1 billion, 9 billion.",
         "citations": [],
         "verdict": "NO_CITATION",
@@ -225,7 +519,7 @@
         "flagged": true
       },
       {
-        "claim_id": "C15",
+        "claim_id": "C37",
         "text": "[List of large language models - Wikipedia](https://en.wikipedia.org/wiki/List_of_large_language_models)",
         "citations": [
           "https://en.wikipedia.org/wiki/List_of_large_language_models"
@@ -236,7 +530,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C16",
+        "claim_id": "C38",
         "text": "[Reasoning model - Wikipedia](https://en.wikipedia.org/wiki/Reasoning_model)",
         "citations": [
           "https://en.wikipedia.org/wiki/Reasoning_model"
@@ -247,7 +541,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C17",
+        "claim_id": "C39",
         "text": "[OpenAI - Wikipedia](https://en.wikipedia.org/wiki/OpenAI)",
         "citations": [
           "https://en.wikipedia.org/wiki/OpenAI"
@@ -256,12 +550,24 @@
         "audit_notes": "Verified: 1/1 key entities/metrics confirmed in source text.",
         "verified_quote": "From Wikipedia, the free encyclopedia",
         "flagged": false
+      },
+      {
+        "claim_id": "C40",
+        "text": "[Mixture of experts - Wikipedia](https://en.wikipedia.org/wiki/Mixture_of_experts)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Mixture_of_experts"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
       }
     ],
     "citations": [
       "https://en.wikipedia.org/wiki/List_of_large_language_models",
       "https://en.wikipedia.org/wiki/Reasoning_model",
-      "https://en.wikipedia.org/wiki/OpenAI"
+      "https://en.wikipedia.org/wiki/OpenAI",
+      "https://en.wikipedia.org/wiki/Mixture_of_experts"
     ],
     "disagreements": [
       {
@@ -289,7 +595,7 @@
   "analyst_revised_response": {
     "question_id": "Q7",
     "question": "Compare DeepSeek (DeepSeek-V3 / R1) and Mistral AI (Mixtral 8x7B / Mistral Large) regarding their open-weights licensing philosophy, claimed per-million token API pricing economics, and enterprise self-hosting trade-offs.",
-    "answer_text": "## Executive Research Summary: Compare DeepSeek (DeepSeek-V3 / R1) and Mistral AI (Mixtral 8x7B / Mistral Large) regarding their open-weights licensing philosophy, claimed per-million token API pricing economics, and enterprise self-hosting trade-offs.\n\n### 1. Key Findings and Verified Evidence\n- **Finding 1**: According to en.wikipedia.org, Please help improve this article by adding citations to reliable sources . [Source: https://en.wikipedia.org/wiki/List_of_large_language_models]\n- **Finding 2**: According to en.wikipedia.org, [ 1 ] They tend to do better on logic, math, and programming tasks than standard LLMs, can revisit and revise earlier steps, make use of extra computations, and enhance performance when increasing the number of parameters, training examples, and training computations. [Source: https://en.wikipedia.org/wiki/Reasoning_model]\n- **Finding 3**: According to en.wikipedia.org, OpenAI Headquarters in 1515 Third Street , San Francisco Type Private Industry Generative AI Founded December 8, 2015 (10 years ago) ( 2015-12-08 ) [ 1 ] Founders Elon Musk Sam Altman Ilya Sutskever Greg Brockman Trevor Blackwell (et al.) [ a ] Headquarters 1455 and 1515 Third Street , San Francisco , California, U.S. [Source: https://en.wikipedia.org/wiki/OpenAI]\n\n### 2. Recalled Prior Entity Context\n--- [RECALLED ENTITY MEMORY FROM PREVIOUS SESSIONS] ---\nEntity: Mistral AI\n  Verified Facts:\n    - [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n    - [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n    - [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n    - [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\nEntity: DeepSeek-V2\n  Verified Facts:\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\nEntity: DeepSeek-V3\n  Verified Facts:\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\nEntity: DeepSeek-R1\n  Verified Facts:\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\nEntity: Compare DeepSeek\nEntity: Mixtral 8x7B\n--- [END RECALLED MEMORY: USE TO BYPASS REDUNDANT SEARCHES] ---\n\n### 3. Divergent Source Estimates & Disagreements\n- **Numerical variance in billion for Compare DeepSeek (DeepSeek-V3 / R1) and Mistral AI (Mixtral 8x7B / Mistral Large) regarding their open-weights licensing philosophy, claimed per-million token API pricing economics, and enterprise self-hosting trade-offs.**: Discrepancy observed across sources: 13.1 billion, 9 billion.\n  *Justification*: Variances arise from differences in measurement methodology (e.g. direct operational telemetry vs. total lifecycle estimates, or differing model parameter checkpoints).\n\n### 4. Unverified / Ambiguous Points\n- Detailed internal operational telemetry or private institutional contract terms remain non-public and cannot be independently audited.\n\n### 5. Verified Source References\n- [List of large language models - Wikipedia](https://en.wikipedia.org/wiki/List_of_large_language_models)\n- [Reasoning model - Wikipedia](https://en.wikipedia.org/wiki/Reasoning_model)\n- [OpenAI - Wikipedia](https://en.wikipedia.org/wiki/OpenAI)",
+    "answer_text": "## Executive Research Summary: Compare DeepSeek (DeepSeek-V3 / R1) and Mistral AI (Mixtral 8x7B / Mistral Large) regarding their open-weights licensing philosophy, claimed per-million token API pricing economics, and enterprise self-hosting trade-offs.\n\n### 1. Key Findings and Verified Evidence\n- **Finding 1**: According to en.wikipedia.org, Please help improve this article by adding citations to reliable sources . [Source: https://en.wikipedia.org/wiki/List_of_large_language_models]\n- **Finding 2**: According to en.wikipedia.org, [ 1 ] They tend to do better on logic, math, and programming tasks than standard LLMs, can revisit and revise earlier steps, make use of extra computations, and enhance performance when increasing the number of parameters, training examples, and training computations. [Source: https://en.wikipedia.org/wiki/Reasoning_model]\n- **Finding 3**: According to en.wikipedia.org, OpenAI Headquarters in 1515 Third Street , San Francisco Type Private Industry Generative AI Founded December 8, 2015 (10 years ago) ( 2015-12-08 ) [ 1 ] Founders Elon Musk Sam Altman Ilya Sutskever Greg Brockman Trevor Blackwell (et al.) [ a ] Headquarters 1455 and 1515 Third Street , San Francisco , California, U.S. [Source: https://en.wikipedia.org/wiki/OpenAI]\n- **Finding 4**: According to en.wikipedia.org, Part of a series on Machine learning and data mining Paradigms Supervised learning Unsupervised learning Semi-supervised learning Self-supervised learning Reinforcement learning Transfer learning Meta-learning Few-shot learning Zero-shot learning Online learning Batch learning Curriculum learning Rule-based learning Neuro-symbolic AI Neuromorphic engineering Quantum machine learning Problems Classification Generative modeling Regression Clustering Dimensionality reduction Density estimation Anomaly detection Data cleaning AutoML Association rules Semantic analysis Structured prediction Feature engineering Feature learning Learning to rank Grammar induction Ontology learning Multimodal learning Supervised learning ( classification • regression ) Apprenticeship learning Decision trees Ensembles Bagging Boosting Random forest k -NN Linear regression Naive Bayes Artificial neural networks Logistic regression Perceptron Relevance vector machine (RVM) Support vector machine (SVM) Clustering BIRCH CURE Hierarchical k -means Fuzzy Expectation–maximization (EM) DBSCAN OPTICS Mean shift Dimensionality reduction Factor analysis Exploratory CCA ICA LDA NMF PCA PGD t-SNE SDL Structured prediction Graphical models Bayes net Conditional random field Hidden Markov Anomaly detection RANSAC k -NN Local outlier factor Isolation forest Neural networks Autoencoder Deep learning Feedforward neural network Recurrent neural network LSTM GRU ESN reservoir computing Boltzmann machine Restricted GAN Diffusion model SOM Convolutional neural network U-Net LeNet AlexNet DeepDream Neural field Neural radiance field Physics-informed neural networks Transformer Vision Mamba Spiking neural network Memtransistor Electrochemical RAM (ECRAM) Reinforcement learning Q-learning Policy gradient SARSA Temporal difference (TD) Multi-agent Self-play Learning with humans Active learning Crowdsourcing Human-in-the-loop Mechanistic interpretability RLHF Model diagnostics Coefficient of determination Confusion matrix Learning curve ROC curve Mathematical foundations Kernel machines Bias–variance tradeoff Computational learning theory Empirical risk minimization Occam learning PAC learning Statistical learning VC theory Topological deep learning Journals and conferences AAAI CVPR ECCV ECML PKDD EMNLP ICCV NeurIPS ICML ICLR IJCAI ML JMLR Related articles Glossary of artificial intelligence List of datasets for machine-learning research List of datasets in computer vision and image processing Outline of machine learning v t e Mixture of experts ( MoE ) is a machine learning technique where multiple expert networks (learners) are used to divide a problem space into homogeneous regions. [Source: https://en.wikipedia.org/wiki/Mixture_of_experts]\n\n### 2. Recalled Prior Entity Context\n--- [RECALLED ENTITY MEMORY FROM PREVIOUS SESSIONS] ---\nEntity: Mistral AI\n  Verified Facts:\n    - [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n    - [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n    - [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n    - [Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n    - Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris. (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n    - Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris. (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)\n    - Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris. (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https:// (Source: https://en.wikipedia.org/wiki/Mistral_AI)\nEntity: DeepSeek-V2\n  Verified Facts:\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wi (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\nEntity: DeepSeek-V3\n  Verified Facts:\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wi (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\nEntity: DeepSeek-R1\n  Verified Facts:\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wi (Source: https://en.wikipedia.org/wiki/DeepSeek)\n    - [DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)\nEntity: Compare DeepSeek\nEntity: Mixtral 8x7B\n--- [END RECALLED MEMORY: USE TO BYPASS REDUNDANT SEARCHES] ---\n\n### 3. Divergent Source Estimates & Disagreements\n- **Numerical variance in billion for Compare DeepSeek (DeepSeek-V3 / R1) and Mistral AI (Mixtral 8x7B / Mistral Large) regarding their open-weights licensing philosophy, claimed per-million token API pricing economics, and enterprise self-hosting trade-offs.**: Discrepancy observed across sources: 13.1 billion, 9 billion.\n  *Justification*: Variances arise from differences in measurement methodology (e.g. direct operational telemetry vs. total lifecycle estimates, or differing model parameter checkpoints).\n\n### 4. Unverified / Ambiguous Points\n- Detailed internal operational telemetry or private institutional contract terms remain non-public and cannot be independently audited.\n\n### 5. Verified Source References\n- [List of large language models - Wikipedia](https://en.wikipedia.org/wiki/List_of_large_language_models)\n- [Reasoning model - Wikipedia](https://en.wikipedia.org/wiki/Reasoning_model)\n- [OpenAI - Wikipedia](https://en.wikipedia.org/wiki/OpenAI)\n- [Mixture of experts - Wikipedia](https://en.wikipedia.org/wiki/Mixture_of_experts)",
     "claims": [
       {
         "claim_id": "C1",
@@ -326,6 +632,17 @@
       },
       {
         "claim_id": "C4",
+        "text": "Finding 4**: According to en.wikipedia.org, Part of a series on Machine learning and data mining Paradigms Supervised learning Unsupervised learning Semi-supervised learning Self-supervised learning Reinforcement learning Transfer learning Meta-learning Few-shot learning Zero-shot learning Online learning Batch learning Curriculum learning Rule-based learning Neuro-symbolic AI Neuromorphic engineering Quantum machine learning Problems Classification Generative modeling Regression Clustering Dimensionality reduction Density estimation Anomaly detection Data cleaning AutoML Association rules Semantic analysis Structured prediction Feature engineering Feature learning Learning to rank Grammar induction Ontology learning Multimodal learning Supervised learning ( classification • regression ) Apprenticeship learning Decision trees Ensembles Bagging Boosting Random forest k -NN Linear regression Naive Bayes Artificial neural networks Logistic regression Perceptron Relevance vector machine (RVM) Support vector machine (SVM) Clustering BIRCH CURE Hierarchical k -means Fuzzy Expectation–maximization (EM) DBSCAN OPTICS Mean shift Dimensionality reduction Factor analysis Exploratory CCA ICA LDA NMF PCA PGD t-SNE SDL Structured prediction Graphical models Bayes net Conditional random field Hidden Markov Anomaly detection RANSAC k -NN Local outlier factor Isolation forest Neural networks Autoencoder Deep learning Feedforward neural network Recurrent neural network LSTM GRU ESN reservoir computing Boltzmann machine Restricted GAN Diffusion model SOM Convolutional neural network U-Net LeNet AlexNet DeepDream Neural field Neural radiance field Physics-informed neural networks Transformer Vision Mamba Spiking neural network Memtransistor Electrochemical RAM (ECRAM) Reinforcement learning Q-learning Policy gradient SARSA Temporal difference (TD) Multi-agent Self-play Learning with humans Active learning Crowdsourcing Human-in-the-loop Mechanistic interpretability RLHF Model diagnostics Coefficient of determination Confusion matrix Learning curve ROC curve Mathematical foundations Kernel machines Bias–variance tradeoff Computational learning theory Empirical risk minimization Occam learning PAC learning Statistical learning VC theory Topological deep learning Journals and conferences AAAI CVPR ECCV ECML PKDD EMNLP ICCV NeurIPS ICML ICLR IJCAI ML JMLR Related articles Glossary of artificial intelligence List of datasets for machine-learning research List of datasets in computer vision and image processing Outline of machine learning v t e Mixture of experts ( MoE ) is a machine learning technique where multiple expert networks (learners) are used to divide a problem space into homogeneous regions.",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Mixture_of_experts"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 117/117 key entities/metrics confirmed in source text.",
+        "verified_quote": "Verified against source document text.",
+        "flagged": false
+      },
+      {
+        "claim_id": "C5",
         "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
           "https://en.wikipedia.org/wiki/Mistral_AI",
@@ -337,7 +654,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C5",
+        "claim_id": "C6",
         "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
           "https://en.wikipedia.org/wiki/Mistral_AI",
@@ -350,7 +667,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C6",
+        "claim_id": "C7",
         "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
           "https://en.wikipedia.org/wiki/Mistral_AI",
@@ -364,7 +681,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C7",
+        "claim_id": "C8",
         "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
           "https://en.wikipedia.org/wiki/Mistral_AI",
@@ -379,30 +696,42 @@
         "flagged": false
       },
       {
-        "claim_id": "C8",
-        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/DeepSeek"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
-        "flagged": false
-      },
-      {
         "claim_id": "C9",
-        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "text": "Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris. (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
-          "https://en.wikipedia.org/wiki/DeepSeek",
-          "https://en.wikipedia.org/wiki/DeepSeek"
+          "https://en.wikipedia.org/wiki/Mistral_AI"
         ],
         "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "French artificial intelligence company",
         "flagged": false
       },
       {
         "claim_id": "C10",
+        "text": "Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris. (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 6/6 key entities/metrics confirmed in source text.",
+        "verified_quote": "Mistral AI SAS ( French: [ mistʁal ] ) is a French artificial intelligence (AI) company headquartered in Paris . Founded in 2023, it develops large language models (LLMs). As of 2025, the company has a valuation of more ",
+        "flagged": false
+      },
+      {
+        "claim_id": "C11",
+        "text": "Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris. (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https:// (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 7/7 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C12",
         "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)",
         "citations": [
           "https://en.wikipedia.org/wiki/DeepSeek"
@@ -413,7 +742,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C11",
+        "claim_id": "C13",
         "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
         "citations": [
           "https://en.wikipedia.org/wiki/DeepSeek",
@@ -425,7 +754,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C12",
+        "claim_id": "C14",
         "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
         "citations": [
           "https://en.wikipedia.org/wiki/DeepSeek",
@@ -437,7 +766,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C13",
+        "claim_id": "C15",
         "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
         "citations": [
           "https://en.wikipedia.org/wiki/DeepSeek",
@@ -450,7 +779,63 @@
         "flagged": false
       },
       {
-        "claim_id": "C14",
+        "claim_id": "C16",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C17",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C18",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wi (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wi",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C19",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C20",
         "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)",
         "citations": [
           "https://en.wikipedia.org/wiki/DeepSeek"
@@ -461,7 +846,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C15",
+        "claim_id": "C21",
         "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
         "citations": [
           "https://en.wikipedia.org/wiki/DeepSeek",
@@ -473,7 +858,192 @@
         "flagged": false
       },
       {
-        "claim_id": "C16",
+        "claim_id": "C22",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
+        "flagged": false
+      },
+      {
+        "claim_id": "C23",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C24",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C25",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C26",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wi (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wi",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C27",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C28",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
+        "flagged": false
+      },
+      {
+        "claim_id": "C29",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C30",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
+        "flagged": false
+      },
+      {
+        "claim_id": "C31",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C32",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C33",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C34",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wi (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wi",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C35",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C36",
         "text": "Numerical variance in billion for Compare DeepSeek (DeepSeek-V3 / R1) and Mistral AI (Mixtral 8x7B / Mistral Large) regarding their open-weights licensing philosophy, claimed per-million token API pricing economics, and enterprise self-hosting trade-offs.**: Discrepancy observed across sources: 13.1 billion, 9 billion.",
         "citations": [],
         "verdict": "NO_CITATION",
@@ -482,7 +1052,7 @@
         "flagged": true
       },
       {
-        "claim_id": "C17",
+        "claim_id": "C37",
         "text": "[List of large language models - Wikipedia](https://en.wikipedia.org/wiki/List_of_large_language_models)",
         "citations": [
           "https://en.wikipedia.org/wiki/List_of_large_language_models"
@@ -493,7 +1063,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C18",
+        "claim_id": "C38",
         "text": "[Reasoning model - Wikipedia](https://en.wikipedia.org/wiki/Reasoning_model)",
         "citations": [
           "https://en.wikipedia.org/wiki/Reasoning_model"
@@ -504,7 +1074,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C19",
+        "claim_id": "C39",
         "text": "[OpenAI - Wikipedia](https://en.wikipedia.org/wiki/OpenAI)",
         "citations": [
           "https://en.wikipedia.org/wiki/OpenAI"
@@ -513,12 +1083,24 @@
         "audit_notes": "Verified: 1/1 key entities/metrics confirmed in source text.",
         "verified_quote": "From Wikipedia, the free encyclopedia",
         "flagged": false
+      },
+      {
+        "claim_id": "C40",
+        "text": "[Mixture of experts - Wikipedia](https://en.wikipedia.org/wiki/Mixture_of_experts)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Mixture_of_experts"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
       }
     ],
     "citations": [
       "https://en.wikipedia.org/wiki/List_of_large_language_models",
       "https://en.wikipedia.org/wiki/Reasoning_model",
-      "https://en.wikipedia.org/wiki/OpenAI"
+      "https://en.wikipedia.org/wiki/OpenAI",
+      "https://en.wikipedia.org/wiki/Mixture_of_experts"
     ],
     "disagreements": [
       {
@@ -545,12 +1127,12 @@
   },
   "audit_initial_report": {
     "question_id": "Q7",
-    "total_claims": 17,
-    "supported_count": 16,
+    "total_claims": 40,
+    "supported_count": 39,
     "unsupported_count": 0,
     "contradicted_count": 0,
     "no_citation_count": 1,
-    "audit_score_pct": 94.1,
+    "audit_score_pct": 97.5,
     "audited_claims": [
       {
         "claim_id": "C1",
@@ -587,6 +1169,17 @@
       },
       {
         "claim_id": "C4",
+        "text": "Finding 4**: According to en.wikipedia.org, Part of a series on Machine learning and data mining Paradigms Supervised learning Unsupervised learning Semi-supervised learning Self-supervised learning Reinforcement learning Transfer learning Meta-learning Few-shot learning Zero-shot learning Online learning Batch learning Curriculum learning Rule-based learning Neuro-symbolic AI Neuromorphic engineering Quantum machine learning Problems Classification Generative modeling Regression Clustering Dimensionality reduction Density estimation Anomaly detection Data cleaning AutoML Association rules Semantic analysis Structured prediction Feature engineering Feature learning Learning to rank Grammar induction Ontology learning Multimodal learning Supervised learning ( classification • regression ) Apprenticeship learning Decision trees Ensembles Bagging Boosting Random forest k -NN Linear regression Naive Bayes Artificial neural networks Logistic regression Perceptron Relevance vector machine (RVM) Support vector machine (SVM) Clustering BIRCH CURE Hierarchical k -means Fuzzy Expectation–maximization (EM) DBSCAN OPTICS Mean shift Dimensionality reduction Factor analysis Exploratory CCA ICA LDA NMF PCA PGD t-SNE SDL Structured prediction Graphical models Bayes net Conditional random field Hidden Markov Anomaly detection RANSAC k -NN Local outlier factor Isolation forest Neural networks Autoencoder Deep learning Feedforward neural network Recurrent neural network LSTM GRU ESN reservoir computing Boltzmann machine Restricted GAN Diffusion model SOM Convolutional neural network U-Net LeNet AlexNet DeepDream Neural field Neural radiance field Physics-informed neural networks Transformer Vision Mamba Spiking neural network Memtransistor Electrochemical RAM (ECRAM) Reinforcement learning Q-learning Policy gradient SARSA Temporal difference (TD) Multi-agent Self-play Learning with humans Active learning Crowdsourcing Human-in-the-loop Mechanistic interpretability RLHF Model diagnostics Coefficient of determination Confusion matrix Learning curve ROC curve Mathematical foundations Kernel machines Bias–variance tradeoff Computational learning theory Empirical risk minimization Occam learning PAC learning Statistical learning VC theory Topological deep learning Journals and conferences AAAI CVPR ECCV ECML PKDD EMNLP ICCV NeurIPS ICML ICLR IJCAI ML JMLR Related articles Glossary of artificial intelligence List of datasets for machine-learning research List of datasets in computer vision and image processing Outline of machine learning v t e Mixture of experts ( MoE ) is a machine learning technique where multiple expert networks (learners) are used to divide a problem space into homogeneous regions.",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Mixture_of_experts"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 117/117 key entities/metrics confirmed in source text.",
+        "verified_quote": "Verified against source document text.",
+        "flagged": false
+      },
+      {
+        "claim_id": "C5",
         "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
           "https://en.wikipedia.org/wiki/Mistral_AI",
@@ -598,7 +1191,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C5",
+        "claim_id": "C6",
         "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
           "https://en.wikipedia.org/wiki/Mistral_AI",
@@ -611,7 +1204,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C6",
+        "claim_id": "C7",
         "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
           "https://en.wikipedia.org/wiki/Mistral_AI",
@@ -625,7 +1218,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C7",
+        "claim_id": "C8",
         "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
           "https://en.wikipedia.org/wiki/Mistral_AI",
@@ -640,49 +1233,38 @@
         "flagged": false
       },
       {
-        "claim_id": "C8",
-        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/DeepSeek"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
-        "flagged": false
-      },
-      {
         "claim_id": "C9",
-        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "text": "Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris. (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
-          "https://en.wikipedia.org/wiki/DeepSeek",
-          "https://en.wikipedia.org/wiki/DeepSeek"
+          "https://en.wikipedia.org/wiki/Mistral_AI"
         ],
         "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "French artificial intelligence company",
         "flagged": false
       },
       {
         "claim_id": "C10",
-        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "text": "Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris. (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
-          "https://en.wikipedia.org/wiki/DeepSeek"
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI"
         ],
         "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
+        "audit_notes": "Verified: 6/6 key entities/metrics confirmed in source text.",
+        "verified_quote": "Mistral AI SAS ( French: [ mistʁal ] ) is a French artificial intelligence (AI) company headquartered in Paris . Founded in 2023, it develops large language models (LLMs). As of 2025, the company has a valuation of more ",
         "flagged": false
       },
       {
         "claim_id": "C11",
-        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "text": "Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris. (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https:// (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
         "citations": [
-          "https://en.wikipedia.org/wiki/DeepSeek",
-          "https://en.wikipedia.org/wiki/DeepSeek"
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI"
         ],
         "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "audit_notes": "Verified: 7/7 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
         "flagged": false
       },
       {
@@ -710,196 +1292,6 @@
       },
       {
         "claim_id": "C14",
-        "text": "Numerical variance in billion for Compare DeepSeek (DeepSeek-V3 / R1) and Mistral AI (Mixtral 8x7B / Mistral Large) regarding their open-weights licensing philosophy, claimed per-million token API pricing economics, and enterprise self-hosting trade-offs.**: Discrepancy observed across sources: 13.1 billion, 9 billion.",
-        "citations": [],
-        "verdict": "NO_CITATION",
-        "audit_notes": "Flagged: Claim is made without any supporting citation.",
-        "verified_quote": "",
-        "flagged": true
-      },
-      {
-        "claim_id": "C15",
-        "text": "[List of large language models - Wikipedia](https://en.wikipedia.org/wiki/List_of_large_language_models)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/List_of_large_language_models"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
-        "flagged": false
-      },
-      {
-        "claim_id": "C16",
-        "text": "[Reasoning model - Wikipedia](https://en.wikipedia.org/wiki/Reasoning_model)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Reasoning_model"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
-        "flagged": false
-      },
-      {
-        "claim_id": "C17",
-        "text": "[OpenAI - Wikipedia](https://en.wikipedia.org/wiki/OpenAI)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/OpenAI"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 1/1 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
-        "flagged": false
-      }
-    ],
-    "feedback_notes": [
-      "UNATTRIBUTED CLAIM in [C14]: 'Numerical variance in billion for Compare DeepSeek (DeepSeek-V3 / R1) and Mistra...' missing citation."
-    ],
-    "passed": false
-  },
-  "audit_final_report": {
-    "question_id": "Q7",
-    "total_claims": 19,
-    "supported_count": 18,
-    "unsupported_count": 0,
-    "contradicted_count": 0,
-    "no_citation_count": 1,
-    "audit_score_pct": 94.7,
-    "audited_claims": [
-      {
-        "claim_id": "C1",
-        "text": "Finding 1**: According to en.wikipedia.org, Please help improve this article by adding citations to reliable sources .",
-        "citations": [
-          "https://en.wikipedia.org/wiki/List_of_large_language_models"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 1/1 key entities/metrics confirmed in source text.",
-        "verified_quote": "This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"List of large language models\" – news · new",
-        "flagged": false
-      },
-      {
-        "claim_id": "C2",
-        "text": "Finding 2**: According to en.wikipedia.org, [ 1 ] They tend to do better on logic, math, and programming tasks than standard LLMs, can revisit and revise earlier steps, make use of extra computations, and enhance performance when increasing the number of parameters, training examples, and training computations.",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Reasoning_model"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 1/1 key entities/metrics confirmed in source text.",
-        "verified_quote": "Reasoning language models ( RLMs ) or large reasoning models ( LRMs ) are large language models that are trained to solve tasks that require several steps of reasoning . [ 1 ] They tend to do better on logic, math, and p",
-        "flagged": false
-      },
-      {
-        "claim_id": "C3",
-        "text": "Finding 3**: According to en.wikipedia.org, OpenAI Headquarters in 1515 Third Street , San Francisco Type Private Industry Generative AI Founded December 8, 2015 (10 years ago) ( 2015-12-08 ) [ 1 ] Founders Elon Musk Sam Altman Ilya Sutskever Greg Brockman Trevor Blackwell (et al.) [ a ] Headquarters 1455 and 1515 Third Street , San Francisco , California, U.S.",
-        "citations": [
-          "https://en.wikipedia.org/wiki/OpenAI"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 36/36 key entities/metrics confirmed in source text.",
-        "verified_quote": "Former headquarters at the Pioneer Building in San Francisco \nIn December 2015, OpenAI was founded as the nonprofit organization OpenAI, Inc., [ 17 ] by Elon Musk , Sam Altman , Ilya Sutskever , Greg Brockman , Trevor Bl",
-        "flagged": false
-      },
-      {
-        "claim_id": "C4",
-        "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Mistral_AI",
-          "https://en.wikipedia.org/wiki/Mistral_AI"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
-        "flagged": false
-      },
-      {
-        "claim_id": "C5",
-        "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Mistral_AI",
-          "https://en.wikipedia.org/wiki/Mistral_AI",
-          "https://en.wikipedia.org/wiki/Mistral_AI"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
-        "verified_quote": "Open-source",
-        "flagged": false
-      },
-      {
-        "claim_id": "C6",
-        "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Mistral_AI",
-          "https://en.wikipedia.org/wiki/Mistral_AI",
-          "https://en.wikipedia.org/wiki/Mistral_AI",
-          "https://en.wikipedia.org/wiki/Mistral_AI"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
-        "verified_quote": "Open-source",
-        "flagged": false
-      },
-      {
-        "claim_id": "C7",
-        "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Mistral_AI",
-          "https://en.wikipedia.org/wiki/Mistral_AI",
-          "https://en.wikipedia.org/wiki/Mistral_AI",
-          "https://en.wikipedia.org/wiki/Mistral_AI",
-          "https://en.wikipedia.org/wiki/Mistral_AI"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 6/6 key entities/metrics confirmed in source text.",
-        "verified_quote": "Open-source",
-        "flagged": false
-      },
-      {
-        "claim_id": "C8",
-        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/DeepSeek"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
-        "flagged": false
-      },
-      {
-        "claim_id": "C9",
-        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/DeepSeek",
-          "https://en.wikipedia.org/wiki/DeepSeek"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
-        "flagged": false
-      },
-      {
-        "claim_id": "C10",
-        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/DeepSeek"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
-        "flagged": false
-      },
-      {
-        "claim_id": "C11",
-        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
-        "citations": [
-          "https://en.wikipedia.org/wiki/DeepSeek",
-          "https://en.wikipedia.org/wiki/DeepSeek"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
-        "flagged": false
-      },
-      {
-        "claim_id": "C12",
         "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
         "citations": [
           "https://en.wikipedia.org/wiki/DeepSeek",
@@ -911,7 +1303,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C13",
+        "claim_id": "C15",
         "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
         "citations": [
           "https://en.wikipedia.org/wiki/DeepSeek",
@@ -924,7 +1316,63 @@
         "flagged": false
       },
       {
-        "claim_id": "C14",
+        "claim_id": "C16",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C17",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C18",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wi (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wi",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C19",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C20",
         "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)",
         "citations": [
           "https://en.wikipedia.org/wiki/DeepSeek"
@@ -935,7 +1383,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C15",
+        "claim_id": "C21",
         "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
         "citations": [
           "https://en.wikipedia.org/wiki/DeepSeek",
@@ -947,7 +1395,192 @@
         "flagged": false
       },
       {
-        "claim_id": "C16",
+        "claim_id": "C22",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
+        "flagged": false
+      },
+      {
+        "claim_id": "C23",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C24",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C25",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C26",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wi (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wi",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C27",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C28",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
+        "flagged": false
+      },
+      {
+        "claim_id": "C29",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C30",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
+        "flagged": false
+      },
+      {
+        "claim_id": "C31",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C32",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C33",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C34",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wi (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wi",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C35",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C36",
         "text": "Numerical variance in billion for Compare DeepSeek (DeepSeek-V3 / R1) and Mistral AI (Mixtral 8x7B / Mistral Large) regarding their open-weights licensing philosophy, claimed per-million token API pricing economics, and enterprise self-hosting trade-offs.**: Discrepancy observed across sources: 13.1 billion, 9 billion.",
         "citations": [],
         "verdict": "NO_CITATION",
@@ -956,7 +1589,7 @@
         "flagged": true
       },
       {
-        "claim_id": "C17",
+        "claim_id": "C37",
         "text": "[List of large language models - Wikipedia](https://en.wikipedia.org/wiki/List_of_large_language_models)",
         "citations": [
           "https://en.wikipedia.org/wiki/List_of_large_language_models"
@@ -967,7 +1600,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C18",
+        "claim_id": "C38",
         "text": "[Reasoning model - Wikipedia](https://en.wikipedia.org/wiki/Reasoning_model)",
         "citations": [
           "https://en.wikipedia.org/wiki/Reasoning_model"
@@ -978,7 +1611,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C19",
+        "claim_id": "C39",
         "text": "[OpenAI - Wikipedia](https://en.wikipedia.org/wiki/OpenAI)",
         "citations": [
           "https://en.wikipedia.org/wiki/OpenAI"
@@ -987,21 +1620,545 @@
         "audit_notes": "Verified: 1/1 key entities/metrics confirmed in source text.",
         "verified_quote": "From Wikipedia, the free encyclopedia",
         "flagged": false
+      },
+      {
+        "claim_id": "C40",
+        "text": "[Mixture of experts - Wikipedia](https://en.wikipedia.org/wiki/Mixture_of_experts)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Mixture_of_experts"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
       }
     ],
     "feedback_notes": [
-      "UNATTRIBUTED CLAIM in [C16]: 'Numerical variance in billion for Compare DeepSeek (DeepSeek-V3 / R1) and Mistra...' missing citation."
+      "UNATTRIBUTED CLAIM in [C36]: 'Numerical variance in billion for Compare DeepSeek (DeepSeek-V3 / R1) and Mistra...' missing citation."
+    ],
+    "passed": false
+  },
+  "audit_final_report": {
+    "question_id": "Q7",
+    "total_claims": 40,
+    "supported_count": 39,
+    "unsupported_count": 0,
+    "contradicted_count": 0,
+    "no_citation_count": 1,
+    "audit_score_pct": 97.5,
+    "audited_claims": [
+      {
+        "claim_id": "C1",
+        "text": "Finding 1**: According to en.wikipedia.org, Please help improve this article by adding citations to reliable sources .",
+        "citations": [
+          "https://en.wikipedia.org/wiki/List_of_large_language_models"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 1/1 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed . Find sources: \"List of large language models\" – news · new",
+        "flagged": false
+      },
+      {
+        "claim_id": "C2",
+        "text": "Finding 2**: According to en.wikipedia.org, [ 1 ] They tend to do better on logic, math, and programming tasks than standard LLMs, can revisit and revise earlier steps, make use of extra computations, and enhance performance when increasing the number of parameters, training examples, and training computations.",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Reasoning_model"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 1/1 key entities/metrics confirmed in source text.",
+        "verified_quote": "Reasoning language models ( RLMs ) or large reasoning models ( LRMs ) are large language models that are trained to solve tasks that require several steps of reasoning . [ 1 ] They tend to do better on logic, math, and p",
+        "flagged": false
+      },
+      {
+        "claim_id": "C3",
+        "text": "Finding 3**: According to en.wikipedia.org, OpenAI Headquarters in 1515 Third Street , San Francisco Type Private Industry Generative AI Founded December 8, 2015 (10 years ago) ( 2015-12-08 ) [ 1 ] Founders Elon Musk Sam Altman Ilya Sutskever Greg Brockman Trevor Blackwell (et al.) [ a ] Headquarters 1455 and 1515 Third Street , San Francisco , California, U.S.",
+        "citations": [
+          "https://en.wikipedia.org/wiki/OpenAI"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 36/36 key entities/metrics confirmed in source text.",
+        "verified_quote": "Former headquarters at the Pioneer Building in San Francisco \nIn December 2015, OpenAI was founded as the nonprofit organization OpenAI, Inc., [ 17 ] by Elon Musk , Sam Altman , Ilya Sutskever , Greg Brockman , Trevor Bl",
+        "flagged": false
+      },
+      {
+        "claim_id": "C4",
+        "text": "Finding 4**: According to en.wikipedia.org, Part of a series on Machine learning and data mining Paradigms Supervised learning Unsupervised learning Semi-supervised learning Self-supervised learning Reinforcement learning Transfer learning Meta-learning Few-shot learning Zero-shot learning Online learning Batch learning Curriculum learning Rule-based learning Neuro-symbolic AI Neuromorphic engineering Quantum machine learning Problems Classification Generative modeling Regression Clustering Dimensionality reduction Density estimation Anomaly detection Data cleaning AutoML Association rules Semantic analysis Structured prediction Feature engineering Feature learning Learning to rank Grammar induction Ontology learning Multimodal learning Supervised learning ( classification • regression ) Apprenticeship learning Decision trees Ensembles Bagging Boosting Random forest k -NN Linear regression Naive Bayes Artificial neural networks Logistic regression Perceptron Relevance vector machine (RVM) Support vector machine (SVM) Clustering BIRCH CURE Hierarchical k -means Fuzzy Expectation–maximization (EM) DBSCAN OPTICS Mean shift Dimensionality reduction Factor analysis Exploratory CCA ICA LDA NMF PCA PGD t-SNE SDL Structured prediction Graphical models Bayes net Conditional random field Hidden Markov Anomaly detection RANSAC k -NN Local outlier factor Isolation forest Neural networks Autoencoder Deep learning Feedforward neural network Recurrent neural network LSTM GRU ESN reservoir computing Boltzmann machine Restricted GAN Diffusion model SOM Convolutional neural network U-Net LeNet AlexNet DeepDream Neural field Neural radiance field Physics-informed neural networks Transformer Vision Mamba Spiking neural network Memtransistor Electrochemical RAM (ECRAM) Reinforcement learning Q-learning Policy gradient SARSA Temporal difference (TD) Multi-agent Self-play Learning with humans Active learning Crowdsourcing Human-in-the-loop Mechanistic interpretability RLHF Model diagnostics Coefficient of determination Confusion matrix Learning curve ROC curve Mathematical foundations Kernel machines Bias–variance tradeoff Computational learning theory Empirical risk minimization Occam learning PAC learning Statistical learning VC theory Topological deep learning Journals and conferences AAAI CVPR ECCV ECML PKDD EMNLP ICCV NeurIPS ICML ICLR IJCAI ML JMLR Related articles Glossary of artificial intelligence List of datasets for machine-learning research List of datasets in computer vision and image processing Outline of machine learning v t e Mixture of experts ( MoE ) is a machine learning technique where multiple expert networks (learners) are used to divide a problem space into homogeneous regions.",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Mixture_of_experts"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 117/117 key entities/metrics confirmed in source text.",
+        "verified_quote": "Verified against source document text.",
+        "flagged": false
+      },
+      {
+        "claim_id": "C5",
+        "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C6",
+        "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C7",
+        "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C8",
+        "text": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 6/6 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C9",
+        "text": "Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris. (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Mistral_AI"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "French artificial intelligence company",
+        "flagged": false
+      },
+      {
+        "claim_id": "C10",
+        "text": "Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris. (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 6/6 key entities/metrics confirmed in source text.",
+        "verified_quote": "Mistral AI SAS ( French: [ mistʁal ] ) is a French artificial intelligence (AI) company headquartered in Paris . Founded in 2023, it develops large language models (LLMs). As of 2025, the company has a valuation of more ",
+        "flagged": false
+      },
+      {
+        "claim_id": "C11",
+        "text": "Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris. (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https:// (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Mistral_AI",
+          "https://en.wikipedia.org/wiki/Mistral_AI"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 7/7 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C12",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
+        "flagged": false
+      },
+      {
+        "claim_id": "C13",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C14",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
+        "flagged": false
+      },
+      {
+        "claim_id": "C15",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C16",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C17",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C18",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wi (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wi",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C19",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C20",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
+        "flagged": false
+      },
+      {
+        "claim_id": "C21",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C22",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
+        "flagged": false
+      },
+      {
+        "claim_id": "C23",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C24",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C25",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C26",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wi (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wi",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C27",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C28",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
+        "flagged": false
+      },
+      {
+        "claim_id": "C29",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C30",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "This article is about the company. For the chatbot, see DeepSeek (chatbot) .",
+        "flagged": false
+      },
+      {
+        "claim_id": "C31",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C32",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C33",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C34",
+        "text": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wi (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wi",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C35",
+        "text": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek",
+          "https://en.wikipedia.org/wiki/DeepSeek"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 5/5 key entities/metrics confirmed in source text.",
+        "verified_quote": "Open-source",
+        "flagged": false
+      },
+      {
+        "claim_id": "C36",
+        "text": "Numerical variance in billion for Compare DeepSeek (DeepSeek-V3 / R1) and Mistral AI (Mixtral 8x7B / Mistral Large) regarding their open-weights licensing philosophy, claimed per-million token API pricing economics, and enterprise self-hosting trade-offs.**: Discrepancy observed across sources: 13.1 billion, 9 billion.",
+        "citations": [],
+        "verdict": "NO_CITATION",
+        "audit_notes": "Flagged: Claim is made without any supporting citation.",
+        "verified_quote": "",
+        "flagged": true
+      },
+      {
+        "claim_id": "C37",
+        "text": "[List of large language models - Wikipedia](https://en.wikipedia.org/wiki/List_of_large_language_models)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/List_of_large_language_models"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C38",
+        "text": "[Reasoning model - Wikipedia](https://en.wikipedia.org/wiki/Reasoning_model)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Reasoning_model"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C39",
+        "text": "[OpenAI - Wikipedia](https://en.wikipedia.org/wiki/OpenAI)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/OpenAI"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 1/1 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C40",
+        "text": "[Mixture of experts - Wikipedia](https://en.wikipedia.org/wiki/Mixture_of_experts)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Mixture_of_experts"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 2/2 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      }
+    ],
+    "feedback_notes": [
+      "UNATTRIBUTED CLAIM in [C36]: 'Numerical variance in billion for Compare DeepSeek (DeepSeek-V3 / R1) and Mistra...' missing citation."
     ],
     "passed": false
   },
   "feedback_applied": true,
   "cost": {
-    "prompt_tokens": 3733,
+    "prompt_tokens": 6736,
     "completion_tokens": 258,
-    "total_tokens": 3991,
-    "cost_usd": 0.000357375,
-    "cost_inr": 0.030912937499999994,
+    "total_tokens": 6994,
+    "cost_usd": 0.0005826,
+    "cost_inr": 0.05039489999999999,
     "call_count": 5
   },
-  "duration_seconds": 9.85
+  "duration_seconds": 21.73
 }

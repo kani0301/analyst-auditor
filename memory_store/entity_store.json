@@ -25,14 +25,29 @@
         "fact": "[Mistral AI - Wikipedia](https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
         "source_url": "https://en.wikipedia.org/wiki/Mistral_AI",
         "timestamp": "2026-09-25T17:33:16.706952+00:00"
+      },
+      {
+        "fact": "Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris.",
+        "source_url": "https://en.wikipedia.org/wiki/Mistral_AI",
+        "timestamp": "2026-09-25T17:49:37.193407+00:00"
+      },
+      {
+        "fact": "Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris. (Source: https://en.wikipedia.org/wiki/Mistral_AI)",
+        "source_url": "https://en.wikipedia.org/wiki/Mistral_AI",
+        "timestamp": "2026-09-25T17:50:55.679684+00:00"
+      },
+      {
+        "fact": "Finding 1**: According to en.wikipedia.org, Mistral AI SAS (French: [mistʁal]) is a French artificial intelligence (AI) company headquartered in Paris. (Source: https://en.wikipedia.org/wiki/Mistral_AI) (Source: https://",
+        "source_url": "https://en.wikipedia.org/wiki/Mistral_AI",
+        "timestamp": "2026-09-25T17:50:55.693380+00:00"
       }
     ],
     "verified_urls": [
       "https://en.wikipedia.org/wiki/Mistral_AI"
     ],
     "created_at": "2026-09-25T17:32:01.779659+00:00",
-    "updated_at": "2026-09-25T17:33:16.706979+00:00",
-    "hit_count": 7
+    "updated_at": "2026-09-25T17:50:55.693396+00:00",
+    "hit_count": 15
   },
   "google": {
     "name": "Google",
@@ -58,6 +73,26 @@
         "fact": "[Google Developers - Wikipedia](https://en.wikipedia.org/wiki/Google_Developers)",
         "source_url": "https://en.wikipedia.org/wiki/Google_Developers",
         "timestamp": "2026-09-25T17:32:21.637058+00:00"
+      },
+      {
+        "fact": "Finding 5**: According to en.wikipedia.org, For the company itself, see Google . (Source: https://en.wikipedia.org/wiki/Google_Search)",
+        "source_url": "https://en.wikipedia.org/wiki/Google_Search",
+        "timestamp": "2026-09-25T17:50:13.338535+00:00"
+      },
+      {
+        "fact": "[Google Chrome - Wikipedia](https://en.wikipedia.org/wiki/Google_Chrome) (Source: https://en.wikipedia.org/wiki/Google_Chrome)",
+        "source_url": "https://en.wikipedia.org/wiki/Google_Chrome",
+        "timestamp": "2026-09-25T17:50:13.339782+00:00"
+      },
+      {
+        "fact": "[Google Search - Wikipedia](https://en.wikipedia.org/wiki/Google_Search) (Source: https://en.wikipedia.org/wiki/Google_Search)",
+        "source_url": "https://en.wikipedia.org/wiki/Google_Search",
+        "timestamp": "2026-09-25T17:50:13.341055+00:00"
+      },
+      {
+        "fact": "[Google Developers - Wikipedia](https://en.wikipedia.org/wiki/Google_Developers) (Source: https://en.wikipedia.org/wiki/Google_Developers)",
+        "source_url": "https://en.wikipedia.org/wiki/Google_Developers",
+        "timestamp": "2026-09-25T17:50:13.343197+00:00"
       }
     ],
     "verified_urls": [
@@ -66,8 +101,8 @@
       "https://en.wikipedia.org/wiki/Google_Developers"
     ],
     "created_at": "2026-09-25T17:32:21.630797+00:00",
-    "updated_at": "2026-09-25T17:32:21.637078+00:00",
-    "hit_count": 0
+    "updated_at": "2026-09-25T17:50:13.343218+00:00",
+    "hit_count": 2
   },
   "gemma": {
     "name": "Gemma",
@@ -77,7 +112,7 @@
     "verified_urls": [],
     "created_at": "2026-09-25T17:32:21.638123+00:00",
     "updated_at": "2026-09-25T17:32:21.638141+00:00",
-    "hit_count": 0
+    "hit_count": 2
   },
   "openai": {
     "name": "OpenAI",
@@ -108,6 +143,21 @@
         "fact": "[OpenAI–HuggingFace incident](https://en.wikipedia.org/wiki/OpenAI%E2%80%93HuggingFace_incident) (Source: https://en.wikipedia.org/wiki/OpenAI%E2%80%93HuggingFace_incident)",
         "source_url": "https://en.wikipedia.org/wiki/OpenAI%E2%80%93HuggingFace_incident",
         "timestamp": "2026-09-25T17:33:08.442082+00:00"
+      },
+      {
+        "fact": "[OpenAI](https://en.wikipedia.org/wiki/OpenAI) (Source: https://en.wikipedia.org/wiki/OpenAI) (Source: https://en.wikipedia.org/wiki/OpenAI)",
+        "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+        "timestamp": "2026-09-25T17:50:31.916141+00:00"
+      },
+      {
+        "fact": "[OpenAI–HuggingFace incident](https://en.wikipedia.org/wiki/OpenAI%E2%80%93HuggingFace_incident) (Source: https://en.wikipedia.org/wiki/OpenAI%E2%80%93HuggingFace_incident) (Source: https://en.wikipedia.org/wiki/OpenAI%E",
+        "source_url": "https://en.wikipedia.org/wiki/OpenAI%E2%80%93HuggingFace_incident",
+        "timestamp": "2026-09-25T17:50:31.917903+00:00"
+      },
+      {
+        "fact": "[OpenAI](https://en.wikipedia.org/wiki/OpenAI) (Source: https://en.wikipedia.org/wiki/OpenAI) (Source: https://en.wikipedia.org/wiki/OpenAI) (Source: https://en.wikipedia.org/wiki/OpenAI)",
+        "source_url": "https://en.wikipedia.org/wiki/OpenAI",
+        "timestamp": "2026-09-25T17:50:40.683476+00:00"
       }
     ],
     "verified_urls": [
@@ -115,8 +165,8 @@
       "https://en.wikipedia.org/wiki/OpenAI%E2%80%93HuggingFace_incident"
     ],
     "created_at": "2026-09-25T17:33:02.332685+00:00",
-    "updated_at": "2026-09-25T17:33:08.442114+00:00",
-    "hit_count": 1
+    "updated_at": "2026-09-25T17:50:40.683490+00:00",
+    "hit_count": 4
   },
   "gpt-4": {
     "name": "GPT-4",
@@ -128,7 +178,7 @@
     "verified_urls": [],
     "created_at": "2026-09-25T17:33:02.337170+00:00",
     "updated_at": "2026-09-25T17:33:02.337181+00:00",
-    "hit_count": 1
+    "hit_count": 4
   },
   "uc riverside": {
     "name": "UC Riverside",
@@ -140,7 +190,7 @@
     "verified_urls": [],
     "created_at": "2026-09-25T17:33:02.338319+00:00",
     "updated_at": "2026-09-25T17:33:02.338334+00:00",
-    "hit_count": 4
+    "hit_count": 9
   },
   "apache 2.0": {
     "name": "Apache 2.0",
@@ -152,7 +202,7 @@
     "verified_urls": [],
     "created_at": "2026-09-25T17:33:16.694521+00:00",
     "updated_at": "2026-09-25T17:33:16.694533+00:00",
-    "hit_count": 1
+    "hit_count": 4
   },
   "microsoft azure": {
     "name": "Microsoft Azure",
@@ -164,7 +214,7 @@
     "verified_urls": [],
     "created_at": "2026-09-25T17:33:16.696142+00:00",
     "updated_at": "2026-09-25T17:33:16.696163+00:00",
-    "hit_count": 1
+    "hit_count": 4
   },
   "deepseek-v2": {
     "name": "DeepSeek-V2",
@@ -182,14 +232,44 @@
         "fact": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek)",
         "source_url": "https://en.wikipedia.org/wiki/DeepSeek",
         "timestamp": "2026-09-25T17:33:25.215086+00:00"
+      },
+      {
+        "fact": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "source_url": "https://en.wikipedia.org/wiki/DeepSeek",
+        "timestamp": "2026-09-25T17:51:05.848171+00:00"
+      },
+      {
+        "fact": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "source_url": "https://en.wikipedia.org/wiki/DeepSeek",
+        "timestamp": "2026-09-25T17:51:05.849312+00:00"
+      },
+      {
+        "fact": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "source_url": "https://en.wikipedia.org/wiki/DeepSeek",
+        "timestamp": "2026-09-25T17:51:05.850621+00:00"
+      },
+      {
+        "fact": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "source_url": "https://en.wikipedia.org/wiki/DeepSeek",
+        "timestamp": "2026-09-25T17:51:05.851959+00:00"
+      },
+      {
+        "fact": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wi",
+        "source_url": "https://en.wikipedia.org/wiki/DeepSeek",
+        "timestamp": "2026-09-25T17:51:05.853238+00:00"
+      },
+      {
+        "fact": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "source_url": "https://en.wikipedia.org/wiki/DeepSeek",
+        "timestamp": "2026-09-25T17:51:05.854411+00:00"
       }
     ],
     "verified_urls": [
       "https://en.wikipedia.org/wiki/DeepSeek"
     ],
     "created_at": "2026-09-25T17:33:25.211826+00:00",
-    "updated_at": "2026-09-25T17:33:25.215107+00:00",
-    "hit_count": 3
+    "updated_at": "2026-09-25T17:51:05.854420+00:00",
+    "hit_count": 8
   },
   "deepseek-v3": {
     "name": "DeepSeek-V3",
@@ -227,14 +307,29 @@
         "fact": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
         "source_url": "https://en.wikipedia.org/wiki/DeepSeek",
         "timestamp": "2026-09-25T17:33:54.699717+00:00"
+      },
+      {
+        "fact": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wi",
+        "source_url": "https://en.wikipedia.org/wiki/DeepSeek",
+        "timestamp": "2026-09-25T17:51:05.856691+00:00"
+      },
+      {
+        "fact": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "source_url": "https://en.wikipedia.org/wiki/DeepSeek",
+        "timestamp": "2026-09-25T17:51:05.857792+00:00"
+      },
+      {
+        "fact": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: h",
+        "source_url": "https://en.wikipedia.org/wiki/DeepSeek",
+        "timestamp": "2026-09-25T17:51:50.107313+00:00"
       }
     ],
     "verified_urls": [
       "https://en.wikipedia.org/wiki/DeepSeek"
     ],
     "created_at": "2026-09-25T17:33:25.216897+00:00",
-    "updated_at": "2026-09-25T17:33:54.699727+00:00",
-    "hit_count": 3
+    "updated_at": "2026-09-25T17:51:50.107332+00:00",
+    "hit_count": 8
   },
   "deepseek-r1": {
     "name": "DeepSeek-R1",
@@ -252,14 +347,44 @@
         "fact": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek)",
         "source_url": "https://en.wikipedia.org/wiki/DeepSeek",
         "timestamp": "2026-09-25T17:33:25.226266+00:00"
+      },
+      {
+        "fact": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "source_url": "https://en.wikipedia.org/wiki/DeepSeek",
+        "timestamp": "2026-09-25T17:51:05.860366+00:00"
+      },
+      {
+        "fact": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "source_url": "https://en.wikipedia.org/wiki/DeepSeek",
+        "timestamp": "2026-09-25T17:51:05.861589+00:00"
+      },
+      {
+        "fact": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "source_url": "https://en.wikipedia.org/wiki/DeepSeek",
+        "timestamp": "2026-09-25T17:51:05.862741+00:00"
+      },
+      {
+        "fact": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "source_url": "https://en.wikipedia.org/wiki/DeepSeek",
+        "timestamp": "2026-09-25T17:51:05.863861+00:00"
+      },
+      {
+        "fact": "Finding 4**: According to en.wikipedia.org, For the chatbot, see DeepSeek (chatbot) . (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wi",
+        "source_url": "https://en.wikipedia.org/wiki/DeepSeek",
+        "timestamp": "2026-09-25T17:51:05.865261+00:00"
+      },
+      {
+        "fact": "[DeepSeek - Wikipedia](https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek) (Source: https://en.wikipedia.org/wiki/DeepSeek)",
+        "source_url": "https://en.wikipedia.org/wiki/DeepSeek",
+        "timestamp": "2026-09-25T17:51:05.866627+00:00"
       }
     ],
     "verified_urls": [
       "https://en.wikipedia.org/wiki/DeepSeek"
     ],
     "created_at": "2026-09-25T17:33:25.222131+00:00",
-    "updated_at": "2026-09-25T17:33:25.226289+00:00",
-    "hit_count": 3
+    "updated_at": "2026-09-25T17:51:05.866647+00:00",
+    "hit_count": 8
   },
   "multi-head latent attention": {
     "name": "Multi-head Latent Attention",
@@ -272,7 +397,7 @@
     "verified_urls": [],
     "created_at": "2026-09-25T17:33:25.227870+00:00",
     "updated_at": "2026-09-25T17:33:25.227889+00:00",
-    "hit_count": 0
+    "hit_count": 5
   },
   "european union artificial intelligence act": {
     "name": "European Union Artificial Intelligence Act",
@@ -290,6 +415,16 @@
         "fact": "[Canada–European Union relations - Wikipedia](https://en.wikipedia.org/wiki/Canada%E2%80%93European_Union_relations)",
         "source_url": "https://en.wikipedia.org/wiki/Canada%E2%80%93European_Union_relations",
         "timestamp": "2026-09-25T17:33:38.260277+00:00"
+      },
+      {
+        "fact": "Finding 1**: According to en.wikipedia.org, It establishes a common regulatory and legal framework for AI within the European Union (EU). (Source: https://en.wikipedia.org/wiki/Artificial_Intelligence_Act)",
+        "source_url": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act",
+        "timestamp": "2026-09-25T17:51:23.200921+00:00"
+      },
+      {
+        "fact": "[Canada–European Union relations - Wikipedia](https://en.wikipedia.org/wiki/Canada%E2%80%93European_Union_relations) (Source: https://en.wikipedia.org/wiki/Canada%E2%80%93European_Union_relations)",
+        "source_url": "https://en.wikipedia.org/wiki/Canada%E2%80%93European_Union_relations",
+        "timestamp": "2026-09-25T17:51:23.203044+00:00"
       }
     ],
     "verified_urls": [
@@ -297,8 +432,8 @@
       "https://en.wikipedia.org/wiki/Canada%E2%80%93European_Union_relations"
     ],
     "created_at": "2026-09-25T17:33:38.255422+00:00",
-    "updated_at": "2026-09-25T17:33:38.260307+00:00",
-    "hit_count": 0
+    "updated_at": "2026-09-25T17:51:23.203062+00:00",
+    "hit_count": 2
   },
   "eu ai act": {
     "name": "EU AI Act",
@@ -316,6 +451,16 @@
         "fact": "[Canada–European Union relations - Wikipedia](https://en.wikipedia.org/wiki/Canada%E2%80%93European_Union_relations)",
         "source_url": "https://en.wikipedia.org/wiki/Canada%E2%80%93European_Union_relations",
         "timestamp": "2026-09-25T17:33:38.267893+00:00"
+      },
+      {
+        "fact": "Finding 1**: According to en.wikipedia.org, It establishes a common regulatory and legal framework for AI within the European Union (EU). (Source: https://en.wikipedia.org/wiki/Artificial_Intelligence_Act)",
+        "source_url": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act",
+        "timestamp": "2026-09-25T17:51:23.207330+00:00"
+      },
+      {
+        "fact": "[Canada–European Union relations - Wikipedia](https://en.wikipedia.org/wiki/Canada%E2%80%93European_Union_relations) (Source: https://en.wikipedia.org/wiki/Canada%E2%80%93European_Union_relations)",
+        "source_url": "https://en.wikipedia.org/wiki/Canada%E2%80%93European_Union_relations",
+        "timestamp": "2026-09-25T17:51:23.209478+00:00"
       }
     ],
     "verified_urls": [
@@ -323,8 +468,8 @@
       "https://en.wikipedia.org/wiki/Canada%E2%80%93European_Union_relations"
     ],
     "created_at": "2026-09-25T17:33:38.262419+00:00",
-    "updated_at": "2026-09-25T17:33:38.267924+00:00",
-    "hit_count": 0
+    "updated_at": "2026-09-25T17:51:23.209495+00:00",
+    "hit_count": 2
   },
   "flops": {
     "name": "FLOPs",
@@ -334,7 +479,7 @@
     "verified_urls": [],
     "created_at": "2026-09-25T17:33:38.271463+00:00",
     "updated_at": "2026-09-25T17:33:38.271490+00:00",
-    "hit_count": 0
+    "hit_count": 2
   },
   "general-purpose ai": {
     "name": "General-Purpose AI",
@@ -347,7 +492,7 @@
     "verified_urls": [],
     "created_at": "2026-09-25T17:33:38.274061+00:00",
     "updated_at": "2026-09-25T17:33:38.274085+00:00",
-    "hit_count": 0
+    "hit_count": 2
   },
   "compare deepseek": {
     "name": "Compare DeepSeek",
@@ -359,7 +504,7 @@
     "verified_urls": [],
     "created_at": "2026-09-25T17:33:52.365697+00:00",
     "updated_at": "2026-09-25T17:33:52.365710+00:00",
-    "hit_count": 1
+    "hit_count": 4
   },
   "mixtral 8x7b": {
     "name": "Mixtral 8x7B",
@@ -371,7 +516,7 @@
     "verified_urls": [],
     "created_at": "2026-09-25T17:33:52.372840+00:00",
     "updated_at": "2026-09-25T17:33:52.372849+00:00",
-    "hit_count": 1
+    "hit_count": 4
   },
   "lk-99": {
     "name": "LK-99",
@@ -399,6 +544,16 @@
         "fact": "Finding 3**: According to en.wikipedia.org, Please help improve it or discuss these issues on the talk page . (Source: https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population)",
         "source_url": "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population",
         "timestamp": "2026-09-25T17:34:08.916822+00:00"
+      },
+      {
+        "fact": "Finding 1**: According to en.wikipedia.org, John Walker who established Walker Sons and Company is the founder of the company. (Source: https://en.wikipedia.org/wiki/Ambeon_Holdings) (Source: https://en.wikipedia.org/wik",
+        "source_url": "https://en.wikipedia.org/wiki/Ambeon_Holdings",
+        "timestamp": "2026-09-25T17:51:58.592102+00:00"
+      },
+      {
+        "fact": "Finding 3**: According to en.wikipedia.org, Please help improve it or discuss these issues on the talk page . (Source: https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population) (Source: https://en.w",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population",
+        "timestamp": "2026-09-25T17:51:58.593987+00:00"
       }
     ],
     "verified_urls": [
@@ -406,7 +561,7 @@
       "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population"
     ],
     "created_at": "2026-09-25T17:34:03.419938+00:00",
-    "updated_at": "2026-09-25T17:34:08.916857+00:00",
-    "hit_count": 1
+    "updated_at": "2026-09-25T17:51:58.594002+00:00",
+    "hit_count": 3
   }
 }

@@ -10,13 +10,16 @@
       "Google",
       "Gemma"
     ],
-    "reused_entities_from_memory": [],
+    "reused_entities_from_memory": [
+      "Google",
+      "Gemma"
+    ],
     "sub_queries": [
       "Question What context window sizes parameter",
       "Google Gemma technical documentation",
       "Google Gemma official facts figures"
     ],
-    "strategy_notes": "Execute live web queries, cross-verify single-source claims, apply entity memory."
+    "strategy_notes": "Recalled Google, Gemma from Entity Memory Store. Re-using established background to focus search on novel criteria."
   },
   "tool_calls": [
     {
@@ -35,40 +38,43 @@
       "tool": "fetch_page_parallel",
       "url_count": 5,
       "urls": [
-        "https://en.wikipedia.org/wiki/Llama_%28language_model%29",
         "https://en.wikipedia.org/wiki/Large_language_model",
+        "https://en.wikipedia.org/wiki/Llama_%28language_model%29",
         "https://en.wikipedia.org/wiki/Attention_Is_All_You_Need",
         "https://en.wikipedia.org/wiki/Google_Chrome",
         "https://en.wikipedia.org/wiki/Google_Search"
       ]
     }
   ],
-  "memory_hits": [],
+  "memory_hits": [
+    "Google",
+    "Gemma"
+  ],
   "analyst_initial_response": {
     "question_id": "Q2",
     "question": "What context window sizes, parameter sizes, and attention mechanisms (including sliding window attention) are specified in the official technical reports for Google's Gemma 2 (2B, 9B, 27B) models?",
-    "answer_text": "## Executive Research Summary: What context window sizes, parameter sizes, and attention mechanisms (including sliding window attention) are specified in the official technical reports for Google's Gemma 2 (2B, 9B, 27B) models?\n\n### 1. Key Findings and Verified Evidence\n- **Finding 1**: According to en.wikipedia.org, Llama Former logo of Llama Screenshot Screenshot of an example of Llama answer describing Wikipedia Developer Meta AI Release February 24, 2023 ; 3 years ago ( 2023-02-24 ) Stable release Llama 4 Maverick / April 5, 2025 ; 17 months ago ( 2025-04-05 ) Llama 4 Scout / April 5, 2025 ; 17 months ago ( 2025-04-05 ) Written in Python Type Large language model GPT Foundation model License Source-available (Llama 4 Community License Agreement and Llama 4 Acceptable Use Policy ) [ 1 ] [ 2 ] Website llama.com Repository github .com /meta-llama /llama-models Llama [ a ] (\" Large Language Model Meta AI \" serving as a backronym ) is a family of large language models (LLMs) released by Meta AI starting in February 2023. [Source: https://en.wikipedia.org/wiki/Llama_%28language_model%29]\n- **Finding 2**: According to en.wikipedia.org, For other uses, see LLM (disambiguation) . [Source: https://en.wikipedia.org/wiki/Large_language_model]\n- **Finding 3**: According to en.wikipedia.org, The paper introduced a new deep learning architecture known as the transformer , based on the attention mechanism proposed in 2014 by Bahdanau et al. [Source: https://en.wikipedia.org/wiki/Attention_Is_All_You_Need]\n- **Finding 4**: According to en.wikipedia.org, For the operating system, see ChromeOS . [Source: https://en.wikipedia.org/wiki/Google_Chrome]\n- **Finding 5**: According to en.wikipedia.org, For the company itself, see Google . [Source: https://en.wikipedia.org/wiki/Google_Search]\n\n### 4. Unverified / Ambiguous Points\n- Detailed internal operational telemetry or private institutional contract terms remain non-public and cannot be independently audited.\n\n### 5. Verified Source References\n- [Llama (language model) - Wikipedia](https://en.wikipedia.org/wiki/Llama_%28language_model%29)\n- [Large language model - Wikipedia](https://en.wikipedia.org/wiki/Large_language_model)\n- [Attention Is All You Need - Wikipedia](https://en.wikipedia.org/wiki/Attention_Is_All_You_Need)\n- [Google Chrome - Wikipedia](https://en.wikipedia.org/wiki/Google_Chrome)\n- [Google Search - Wikipedia](https://en.wikipedia.org/wiki/Google_Search)\n- [Google Developers - Wikipedia](https://en.wikipedia.org/wiki/Google_Developers)",
+    "answer_text": "## Executive Research Summary: What context window sizes, parameter sizes, and attention mechanisms (including sliding window attention) are specified in the official technical reports for Google's Gemma 2 (2B, 9B, 27B) models?\n\n### 1. Key Findings and Verified Evidence\n- **Finding 1**: According to en.wikipedia.org, For other uses, see LLM (disambiguation) . [Source: https://en.wikipedia.org/wiki/Large_language_model]\n- **Finding 2**: According to en.wikipedia.org, Llama Former logo of Llama Screenshot Screenshot of an example of Llama answer describing Wikipedia Developer Meta AI Release February 24, 2023 ; 3 years ago ( 2023-02-24 ) Stable release Llama 4 Maverick / April 5, 2025 ; 17 months ago ( 2025-04-05 ) Llama 4 Scout / April 5, 2025 ; 17 months ago ( 2025-04-05 ) Written in Python Type Large language model GPT Foundation model License Source-available (Llama 4 Community License Agreement and Llama 4 Acceptable Use Policy ) [ 1 ] [ 2 ] Website llama.com Repository github .com /meta-llama /llama-models Llama [ a ] (\" Large Language Model Meta AI \" serving as a backronym ) is a family of large language models (LLMs) released by Meta AI starting in February 2023. [Source: https://en.wikipedia.org/wiki/Llama_%28language_model%29]\n- **Finding 3**: According to en.wikipedia.org, The paper introduced a new deep learning architecture known as the transformer , based on the attention mechanism proposed in 2014 by Bahdanau et al. [Source: https://en.wikipedia.org/wiki/Attention_Is_All_You_Need]\n- **Finding 4**: According to en.wikipedia.org, For the operating system, see ChromeOS . [Source: https://en.wikipedia.org/wiki/Google_Chrome]\n- **Finding 5**: According to en.wikipedia.org, For the company itself, see Google . [Source: https://en.wikipedia.org/wiki/Google_Search]\n\n### 2. Recalled Prior Entity Context\n--- [RECALLED ENTITY MEMORY FROM PREVIOUS SESSIONS] ---\nEntity: Google\n  Verified Facts:\n    - Finding 5**: According to en.wikipedia.org, For the company itself, see Google . (Source: https://en.wikipedia.org/wiki/Google_Search)\n    - [Google Chrome - Wikipedia](https://en.wikipedia.org/wiki/Google_Chrome) (Source: https://en.wikipedia.org/wiki/Google_Chrome)\n    - [Google Search - Wikipedia](https://en.wikipedia.org/wiki/Google_Search) (Source: https://en.wikipedia.org/wiki/Google_Search)\n    - [Google Developers - Wikipedia](https://en.wikipedia.org/wiki/Google_Developers) (Source: https://en.wikipedia.org/wiki/Google_Developers)\nEntity: Gemma\n--- [END RECALLED MEMORY: USE TO BYPASS REDUNDANT SEARCHES] ---\n\n### 4. Unverified / Ambiguous Points\n- Detailed internal operational telemetry or private institutional contract terms remain non-public and cannot be independently audited.\n\n### 5. Verified Source References\n- [Large language model - Wikipedia](https://en.wikipedia.org/wiki/Large_language_model)\n- [Llama (language model) - Wikipedia](https://en.wikipedia.org/wiki/Llama_%28language_model%29)\n- [Attention Is All You Need - Wikipedia](https://en.wikipedia.org/wiki/Attention_Is_All_You_Need)\n- [Google Chrome - Wikipedia](https://en.wikipedia.org/wiki/Google_Chrome)\n- [Google Search - Wikipedia](https://en.wikipedia.org/wiki/Google_Search)\n- [Google Developers - Wikipedia](https://en.wikipedia.org/wiki/Google_Developers)",
     "claims": [
       {
         "claim_id": "C1",
-        "text": "Finding 1**: According to en.wikipedia.org, Llama Former logo of Llama Screenshot Screenshot of an example of Llama answer describing Wikipedia Developer Meta AI Release February 24, 2023 ; 3 years ago ( 2023-02-24 ) Stable release Llama 4 Maverick / April 5, 2025 ; 17 months ago ( 2025-04-05 ) Llama 4 Scout / April 5, 2025 ; 17 months ago ( 2025-04-05 ) Written in Python Type Large language model GPT Foundation model License Source-available (Llama 4 Community License Agreement and Llama 4 Acceptable Use Policy ) [ 1 ] [ 2 ] Website llama.com Repository github .com /meta-llama /llama-models Llama [ a ] (\" Large Language Model Meta AI \" serving as a backronym ) is a family of large language models (LLMs) released by Meta AI starting in February 2023.",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Llama_%28language_model%29"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 58/58 key entities/metrics confirmed in source text.",
-        "verified_quote": "Verified against source document text.",
-        "flagged": false
-      },
-      {
-        "claim_id": "C2",
-        "text": "Finding 2**: According to en.wikipedia.org, For other uses, see LLM (disambiguation) .",
+        "text": "Finding 1**: According to en.wikipedia.org, For other uses, see LLM (disambiguation) .",
         "citations": [
           "https://en.wikipedia.org/wiki/Large_language_model"
         ],
         "verdict": "SUPPORTED",
         "audit_notes": "Verified: 1/1 key entities/metrics confirmed in source text.",
         "verified_quote": "\"LLM\" redirects here. For other uses, see LLM (disambiguation) .",
+        "flagged": false
+      },
+      {
+        "claim_id": "C2",
+        "text": "Finding 2**: According to en.wikipedia.org, Llama Former logo of Llama Screenshot Screenshot of an example of Llama answer describing Wikipedia Developer Meta AI Release February 24, 2023 ; 3 years ago ( 2023-02-24 ) Stable release Llama 4 Maverick / April 5, 2025 ; 17 months ago ( 2025-04-05 ) Llama 4 Scout / April 5, 2025 ; 17 months ago ( 2025-04-05 ) Written in Python Type Large language model GPT Foundation model License Source-available (Llama 4 Community License Agreement and Llama 4 Acceptable Use Policy ) [ 1 ] [ 2 ] Website llama.com Repository github .com /meta-llama /llama-models Llama [ a ] (\" Large Language Model Meta AI \" serving as a backronym ) is a family of large language models (LLMs) released by Meta AI starting in February 2023.",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Llama_%28language_model%29"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 58/58 key entities/metrics confirmed in source text.",
+        "verified_quote": "Verified against source document text.",
         "flagged": false
       },
       {
@@ -106,17 +112,53 @@
       },
       {
         "claim_id": "C6",
-        "text": "[Llama (language model) - Wikipedia](https://en.wikipedia.org/wiki/Llama_%28language_model%29)",
+        "text": "Finding 5**: According to en.wikipedia.org, For the company itself, see Google . (Source: https://en.wikipedia.org/wiki/Google_Search)",
         "citations": [
-          "https://en.wikipedia.org/wiki/Llama_%28language_model%29"
+          "https://en.wikipedia.org/wiki/Google_Search"
         ],
         "verdict": "SUPPORTED",
         "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "verified_quote": "Search engine from Google",
         "flagged": false
       },
       {
         "claim_id": "C7",
+        "text": "[Google Chrome - Wikipedia](https://en.wikipedia.org/wiki/Google_Chrome) (Source: https://en.wikipedia.org/wiki/Google_Chrome)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Google_Chrome",
+          "https://en.wikipedia.org/wiki/Google_Chrome"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Google Chrome",
+        "flagged": false
+      },
+      {
+        "claim_id": "C8",
+        "text": "[Google Search - Wikipedia](https://en.wikipedia.org/wiki/Google_Search) (Source: https://en.wikipedia.org/wiki/Google_Search)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Google_Search",
+          "https://en.wikipedia.org/wiki/Google_Search"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Search engine from Google",
+        "flagged": false
+      },
+      {
+        "claim_id": "C9",
+        "text": "[Google Developers - Wikipedia](https://en.wikipedia.org/wiki/Google_Developers) (Source: https://en.wikipedia.org/wiki/Google_Developers)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Google_Developers",
+          "https://en.wikipedia.org/wiki/Google_Developers"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Google Developers information and code (RDS)",
+        "flagged": false
+      },
+      {
+        "claim_id": "C10",
         "text": "[Large language model - Wikipedia](https://en.wikipedia.org/wiki/Large_language_model)",
         "citations": [
           "https://en.wikipedia.org/wiki/Large_language_model"
@@ -127,7 +169,18 @@
         "flagged": false
       },
       {
-        "claim_id": "C8",
+        "claim_id": "C11",
+        "text": "[Llama (language model) - Wikipedia](https://en.wikipedia.org/wiki/Llama_%28language_model%29)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Llama_%28language_model%29"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C12",
         "text": "[Attention Is All You Need - Wikipedia](https://en.wikipedia.org/wiki/Attention_Is_All_You_Need)",
         "citations": [
           "https://en.wikipedia.org/wiki/Attention_Is_All_You_Need"
@@ -138,7 +191,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C9",
+        "claim_id": "C13",
         "text": "[Google Chrome - Wikipedia](https://en.wikipedia.org/wiki/Google_Chrome)",
         "citations": [
           "https://en.wikipedia.org/wiki/Google_Chrome"
@@ -149,7 +202,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C10",
+        "claim_id": "C14",
         "text": "[Google Search - Wikipedia](https://en.wikipedia.org/wiki/Google_Search)",
         "citations": [
           "https://en.wikipedia.org/wiki/Google_Search"
@@ -160,7 +213,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C11",
+        "claim_id": "C15",
         "text": "[Google Developers - Wikipedia](https://en.wikipedia.org/wiki/Google_Developers)",
         "citations": [
           "https://en.wikipedia.org/wiki/Google_Developers"
@@ -172,8 +225,8 @@
       }
     ],
     "citations": [
-      "https://en.wikipedia.org/wiki/Llama_%28language_model%29",
       "https://en.wikipedia.org/wiki/Large_language_model",
+      "https://en.wikipedia.org/wiki/Llama_%28language_model%29",
       "https://en.wikipedia.org/wiki/Attention_Is_All_You_Need",
       "https://en.wikipedia.org/wiki/Google_Chrome",
       "https://en.wikipedia.org/wiki/Google_Search"
@@ -182,14 +235,14 @@
     "unverifiable_points": [
       "Detailed internal operational telemetry or private institutional contract terms remain non-public and cannot be independently audited."
     ],
-    "memory_applied": false,
+    "memory_applied": true,
     "revision_iteration": 0
   },
   "analyst_revised_response": null,
   "audit_initial_report": {
     "question_id": "Q2",
-    "total_claims": 11,
-    "supported_count": 11,
+    "total_claims": 15,
+    "supported_count": 15,
     "unsupported_count": 0,
     "contradicted_count": 0,
     "no_citation_count": 0,
@@ -197,24 +250,24 @@
     "audited_claims": [
       {
         "claim_id": "C1",
-        "text": "Finding 1**: According to en.wikipedia.org, Llama Former logo of Llama Screenshot Screenshot of an example of Llama answer describing Wikipedia Developer Meta AI Release February 24, 2023 ; 3 years ago ( 2023-02-24 ) Stable release Llama 4 Maverick / April 5, 2025 ; 17 months ago ( 2025-04-05 ) Llama 4 Scout / April 5, 2025 ; 17 months ago ( 2025-04-05 ) Written in Python Type Large language model GPT Foundation model License Source-available (Llama 4 Community License Agreement and Llama 4 Acceptable Use Policy ) [ 1 ] [ 2 ] Website llama.com Repository github .com /meta-llama /llama-models Llama [ a ] (\" Large Language Model Meta AI \" serving as a backronym ) is a family of large language models (LLMs) released by Meta AI starting in February 2023.",
-        "citations": [
-          "https://en.wikipedia.org/wiki/Llama_%28language_model%29"
-        ],
-        "verdict": "SUPPORTED",
-        "audit_notes": "Verified: 58/58 key entities/metrics confirmed in source text.",
-        "verified_quote": "Verified against source document text.",
-        "flagged": false
-      },
-      {
-        "claim_id": "C2",
-        "text": "Finding 2**: According to en.wikipedia.org, For other uses, see LLM (disambiguation) .",
+        "text": "Finding 1**: According to en.wikipedia.org, For other uses, see LLM (disambiguation) .",
         "citations": [
           "https://en.wikipedia.org/wiki/Large_language_model"
         ],
         "verdict": "SUPPORTED",
         "audit_notes": "Verified: 1/1 key entities/metrics confirmed in source text.",
         "verified_quote": "\"LLM\" redirects here. For other uses, see LLM (disambiguation) .",
+        "flagged": false
+      },
+      {
+        "claim_id": "C2",
+        "text": "Finding 2**: According to en.wikipedia.org, Llama Former logo of Llama Screenshot Screenshot of an example of Llama answer describing Wikipedia Developer Meta AI Release February 24, 2023 ; 3 years ago ( 2023-02-24 ) Stable release Llama 4 Maverick / April 5, 2025 ; 17 months ago ( 2025-04-05 ) Llama 4 Scout / April 5, 2025 ; 17 months ago ( 2025-04-05 ) Written in Python Type Large language model GPT Foundation model License Source-available (Llama 4 Community License Agreement and Llama 4 Acceptable Use Policy ) [ 1 ] [ 2 ] Website llama.com Repository github .com /meta-llama /llama-models Llama [ a ] (\" Large Language Model Meta AI \" serving as a backronym ) is a family of large language models (LLMs) released by Meta AI starting in February 2023.",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Llama_%28language_model%29"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 58/58 key entities/metrics confirmed in source text.",
+        "verified_quote": "Verified against source document text.",
         "flagged": false
       },
       {
@@ -252,17 +305,53 @@
       },
       {
         "claim_id": "C6",
-        "text": "[Llama (language model) - Wikipedia](https://en.wikipedia.org/wiki/Llama_%28language_model%29)",
+        "text": "Finding 5**: According to en.wikipedia.org, For the company itself, see Google . (Source: https://en.wikipedia.org/wiki/Google_Search)",
         "citations": [
-          "https://en.wikipedia.org/wiki/Llama_%28language_model%29"
+          "https://en.wikipedia.org/wiki/Google_Search"
         ],
         "verdict": "SUPPORTED",
         "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
-        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "verified_quote": "Search engine from Google",
         "flagged": false
       },
       {
         "claim_id": "C7",
+        "text": "[Google Chrome - Wikipedia](https://en.wikipedia.org/wiki/Google_Chrome) (Source: https://en.wikipedia.org/wiki/Google_Chrome)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Google_Chrome",
+          "https://en.wikipedia.org/wiki/Google_Chrome"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Google Chrome",
+        "flagged": false
+      },
+      {
+        "claim_id": "C8",
+        "text": "[Google Search - Wikipedia](https://en.wikipedia.org/wiki/Google_Search) (Source: https://en.wikipedia.org/wiki/Google_Search)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Google_Search",
+          "https://en.wikipedia.org/wiki/Google_Search"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Search engine from Google",
+        "flagged": false
+      },
+      {
+        "claim_id": "C9",
+        "text": "[Google Developers - Wikipedia](https://en.wikipedia.org/wiki/Google_Developers) (Source: https://en.wikipedia.org/wiki/Google_Developers)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Google_Developers",
+          "https://en.wikipedia.org/wiki/Google_Developers"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 4/4 key entities/metrics confirmed in source text.",
+        "verified_quote": "Google Developers information and code (RDS)",
+        "flagged": false
+      },
+      {
+        "claim_id": "C10",
         "text": "[Large language model - Wikipedia](https://en.wikipedia.org/wiki/Large_language_model)",
         "citations": [
           "https://en.wikipedia.org/wiki/Large_language_model"
@@ -273,7 +362,18 @@
         "flagged": false
       },
       {
-        "claim_id": "C8",
+        "claim_id": "C11",
+        "text": "[Llama (language model) - Wikipedia](https://en.wikipedia.org/wiki/Llama_%28language_model%29)",
+        "citations": [
+          "https://en.wikipedia.org/wiki/Llama_%28language_model%29"
+        ],
+        "verdict": "SUPPORTED",
+        "audit_notes": "Verified: 3/3 key entities/metrics confirmed in source text.",
+        "verified_quote": "From Wikipedia, the free encyclopedia",
+        "flagged": false
+      },
+      {
+        "claim_id": "C12",
         "text": "[Attention Is All You Need - Wikipedia](https://en.wikipedia.org/wiki/Attention_Is_All_You_Need)",
         "citations": [
           "https://en.wikipedia.org/wiki/Attention_Is_All_You_Need"
@@ -284,7 +384,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C9",
+        "claim_id": "C13",
         "text": "[Google Chrome - Wikipedia](https://en.wikipedia.org/wiki/Google_Chrome)",
         "citations": [
           "https://en.wikipedia.org/wiki/Google_Chrome"
@@ -295,7 +395,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C10",
+        "claim_id": "C14",
         "text": "[Google Search - Wikipedia](https://en.wikipedia.org/wiki/Google_Search)",
         "citations": [
           "https://en.wikipedia.org/wiki/Google_Search"
@@ -306,7 +406,7 @@
         "flagged": false
       },
       {
-        "claim_id": "C11",
+        "claim_id": "C15",
         "text": "[Google Developers - Wikipedia](https://en.wikipedia.org/wiki/Google_Developers)",
         "citations": [
           "https://en.wikipedia.org/wiki/Google_Developers"
@@ -323,12 +423,12 @@
   "audit_final_report": null,
   "feedback_applied": false,
   "cost": {
-    "prompt_tokens": 2102,
+    "prompt_tokens": 2283,
     "completion_tokens": 138,
-    "total_tokens": 2240,
-    "cost_usd": 0.00019905,
-    "cost_inr": 0.017217825,
+    "total_tokens": 2421,
+    "cost_usd": 0.000212625,
+    "cost_inr": 0.0183920625,
     "call_count": 3
   },
-  "duration_seconds": 40.05
+  "duration_seconds": 15.09
 }

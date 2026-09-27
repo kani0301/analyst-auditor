@@ -1,69 +1,69 @@
 {
-  "timestamp": "2026-09-25T17:34:08Z",
-  "total_duration_seconds": 135.45,
+  "timestamp": "2026-09-25T17:52:08Z",
+  "total_duration_seconds": 169.93,
   "cost_summary": {
-    "session_total_tokens": 25663,
-    "session_prompt_tokens": 23912,
-    "session_completion_tokens": 1751,
-    "session_cost_usd": 0.002319,
-    "session_cost_inr": 0.2006,
+    "session_total_tokens": 27319,
+    "session_prompt_tokens": 25693,
+    "session_completion_tokens": 1626,
+    "session_cost_usd": 0.002415,
+    "session_cost_inr": 0.2089,
     "usd_to_inr_rate": 86.5,
     "question_trend": [
       {
         "question_id": "Q1",
-        "total_tokens": 4408,
-        "cost_usd": 0.000386,
-        "cost_inr": 0.0334,
-        "calls": 5
+        "total_tokens": 1676,
+        "cost_usd": 0.000162,
+        "cost_inr": 0.014,
+        "calls": 3
       },
       {
         "question_id": "Q2",
-        "total_tokens": 2240,
-        "cost_usd": 0.000199,
-        "cost_inr": 0.0172,
+        "total_tokens": 2421,
+        "cost_usd": 0.000213,
+        "cost_inr": 0.0184,
         "calls": 3
       },
       {
         "question_id": "Q3",
-        "total_tokens": 4592,
-        "cost_usd": 0.000407,
-        "cost_inr": 0.0352,
+        "total_tokens": 5251,
+        "cost_usd": 0.000467,
+        "cost_inr": 0.0404,
         "calls": 5
       },
       {
         "question_id": "Q4",
-        "total_tokens": 3286,
-        "cost_usd": 0.000301,
-        "cost_inr": 0.0261,
+        "total_tokens": 3693,
+        "cost_usd": 0.000332,
+        "cost_inr": 0.0287,
         "calls": 5
       },
       {
         "question_id": "Q5",
-        "total_tokens": 1934,
-        "cost_usd": 0.000185,
-        "cost_inr": 0.016,
+        "total_tokens": 2413,
+        "cost_usd": 0.000221,
+        "cost_inr": 0.0191,
         "calls": 3
       },
       {
         "question_id": "Q6",
-        "total_tokens": 1992,
-        "cost_usd": 0.000192,
-        "cost_inr": 0.0166,
+        "total_tokens": 2284,
+        "cost_usd": 0.000214,
+        "cost_inr": 0.0185,
         "calls": 3
       },
       {
         "question_id": "Q7",
-        "total_tokens": 3991,
-        "cost_usd": 0.000357,
-        "cost_inr": 0.0309,
+        "total_tokens": 6994,
+        "cost_usd": 0.000583,
+        "cost_inr": 0.0504,
         "calls": 5
       },
       {
         "question_id": "Q8",
-        "total_tokens": 3220,
-        "cost_usd": 0.00029,
-        "cost_inr": 0.0251,
-        "calls": 5
+        "total_tokens": 2587,
+        "cost_usd": 0.000223,
+        "cost_inr": 0.0193,
+        "calls": 3
       }
     ]
   },
@@ -72,122 +72,147 @@
       "id": "Q1",
       "difficulty": "Low",
       "category": "Baseline Entity Fact Retrieval",
-      "claims": 14,
-      "supported": 12,
-      "audit_score": "85.7%",
-      "memory_hit": false,
-      "recalled_entities": [],
-      "tokens": 4408,
-      "cost_inr": 0.0334,
-      "cost_usd": 0.000386,
-      "duration_s": 17.21
+      "claims": 15,
+      "supported": 13,
+      "audit_score": "86.7%",
+      "memory_hit": true,
+      "recalled_entities": [
+        "Mistral AI"
+      ],
+      "tokens": 1676,
+      "cost_inr": 0.014,
+      "cost_usd": 0.000162,
+      "duration_s": 46.12
     },
     {
       "id": "Q2",
       "difficulty": "Low-Medium",
       "category": "Multi-Model Technical Architecture",
-      "claims": 11,
-      "supported": 11,
+      "claims": 15,
+      "supported": 15,
       "audit_score": "100.0%",
-      "memory_hit": false,
-      "recalled_entities": [],
-      "tokens": 2240,
-      "cost_inr": 0.0172,
-      "cost_usd": 0.000199,
-      "duration_s": 40.05
+      "memory_hit": true,
+      "recalled_entities": [
+        "Google",
+        "Gemma"
+      ],
+      "tokens": 2421,
+      "cost_inr": 0.0184,
+      "cost_usd": 0.000213,
+      "duration_s": 15.09
     },
     {
       "id": "Q3",
       "difficulty": "Medium",
       "category": "Divergent Estimates & Source Disagreement",
-      "claims": 14,
-      "supported": 11,
-      "audit_score": "78.6%",
-      "memory_hit": false,
-      "recalled_entities": [],
-      "tokens": 4592,
-      "cost_inr": 0.0352,
-      "cost_usd": 0.000407,
-      "duration_s": 17.71
+      "claims": 18,
+      "supported": 14,
+      "audit_score": "77.8%",
+      "memory_hit": true,
+      "recalled_entities": [
+        "OpenAI",
+        "GPT-4",
+        "UC Riverside"
+      ],
+      "tokens": 5251,
+      "cost_inr": 0.0404,
+      "cost_usd": 0.000467,
+      "duration_s": 21.16
     },
     {
       "id": "Q4",
       "difficulty": "Medium",
       "category": "Entity Memory Recall & Commercial Evolution",
-      "claims": 10,
-      "supported": 9,
-      "audit_score": "90.0%",
+      "claims": 13,
+      "supported": 12,
+      "audit_score": "92.3%",
       "memory_hit": true,
       "recalled_entities": [
-        "Mistral AI"
+        "Mistral AI",
+        "Apache 2.0",
+        "Microsoft Azure",
+        "Multi-head Latent Attention"
       ],
-      "tokens": 3286,
-      "cost_inr": 0.0261,
-      "cost_usd": 0.000301,
-      "duration_s": 8.26
+      "tokens": 3693,
+      "cost_inr": 0.0287,
+      "cost_usd": 0.000332,
+      "duration_s": 15.01
     },
     {
       "id": "Q5",
       "difficulty": "Medium-High",
       "category": "Deep Technical Architecture & Training Economics",
-      "claims": 8,
-      "supported": 8,
+      "claims": 18,
+      "supported": 18,
       "audit_score": "100.0%",
-      "memory_hit": false,
-      "recalled_entities": [],
-      "tokens": 1934,
-      "cost_inr": 0.016,
-      "cost_usd": 0.000185,
-      "duration_s": 13.1
+      "memory_hit": true,
+      "recalled_entities": [
+        "DeepSeek-V2",
+        "DeepSeek-V3",
+        "DeepSeek-R1",
+        "Multi-head Latent Attention"
+      ],
+      "tokens": 2413,
+      "cost_inr": 0.0191,
+      "cost_usd": 0.000221,
+      "duration_s": 16.9
     },
     {
       "id": "Q6",
       "difficulty": "High",
       "category": "Cross-Jurisdictional Regulatory & Compliance Frameworks",
-      "claims": 8,
-      "supported": 8,
+      "claims": 12,
+      "supported": 12,
       "audit_score": "100.0%",
-      "memory_hit": false,
-      "recalled_entities": [],
-      "tokens": 1992,
-      "cost_inr": 0.0166,
-      "cost_usd": 0.000192,
-      "duration_s": 15.04
+      "memory_hit": true,
+      "recalled_entities": [
+        "European Union Artificial Intelligence Act",
+        "EU AI Act",
+        "FLOPs",
+        "General-Purpose AI"
+      ],
+      "tokens": 2284,
+      "cost_inr": 0.0185,
+      "cost_usd": 0.000214,
+      "duration_s": 18.33
     },
     {
       "id": "Q7",
       "difficulty": "High",
       "category": "Dual-Entity Comparative Synthesis & Memory Reuse",
-      "claims": 19,
-      "supported": 18,
-      "audit_score": "94.7%",
+      "claims": 40,
+      "supported": 39,
+      "audit_score": "97.5%",
       "memory_hit": true,
       "recalled_entities": [
         "Mistral AI",
         "DeepSeek-V2",
         "DeepSeek-V3",
-        "DeepSeek-R1"
+        "DeepSeek-R1",
+        "Compare DeepSeek",
+        "Mixtral 8x7B"
       ],
-      "tokens": 3991,
-      "cost_inr": 0.0309,
-      "cost_usd": 0.000357,
-      "duration_s": 9.85
+      "tokens": 6994,
+      "cost_inr": 0.0504,
+      "cost_usd": 0.000583,
+      "duration_s": 21.73
     },
     {
       "id": "Q8",
       "difficulty": "Very High",
       "category": "Controversial Scientific Synthesis & Verification Consensus",
-      "claims": 9,
-      "supported": 8,
-      "audit_score": "88.9%",
+      "claims": 15,
+      "supported": 15,
+      "audit_score": "100.0%",
       "memory_hit": true,
       "recalled_entities": [
-        "UC Riverside"
+        "UC Riverside",
+        "LK-99"
       ],
-      "tokens": 3220,
-      "cost_inr": 0.0251,
-      "cost_usd": 0.00029,
-      "duration_s": 14.21
+      "tokens": 2587,
+      "cost_inr": 0.0193,
+      "cost_usd": 0.000223,
+      "duration_s": 15.52
     }
   ]
 }
